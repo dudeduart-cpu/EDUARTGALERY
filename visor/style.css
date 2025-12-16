@@ -735,7 +735,7 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: SALON --- */
 .modal-frame-container.env-room {
-    background-image: url(../bg/custom_living.jpg');
+    background-image: url('../bg/custom_living.jpg');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -755,7 +755,7 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: BEDROOM --- */
 .modal-frame-container.env-bedroom {
-    background-image: url(../bg/custom_bedroom.png');
+    background-image: url('../bg/custom_bedroom.png');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -773,9 +773,9 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: TABLETOP --- */
 .modal-frame-container.env-table {
-    background-image: url(porta_CON_MESA_rotado.png');
+    background-image: url('../bg/table_frame.png');
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     position: relative;
     background-color: #f0f0f0;
@@ -819,7 +819,13 @@ body {
     order: 2;
     padding: 1.5rem;
     overflow-y: visible;
-    flex-shrink: 0; } .brand img { max-width: 180px !important; margin: 0 auto 1rem auto !important; }
+    flex-shrink: 0;
+}
+
+.brand img {
+    max-width: 180px !important;
+    margin: 0 auto 1rem auto !important;
+}
 
 .gallery-container {
     flex: none;
@@ -970,7 +976,7 @@ body {
 
 
 
-    
+
 /* --- CRITICAL LAYOUT FIXES (STEP 885) --- */
 
 /* 1. Global Logo Constraint (Desktop & Mobile) */
@@ -986,12 +992,16 @@ body {
     .app-container {
         flex-direction: row !important;
     }
+
     .controls-sidebar {
-        order: 1 !important; /* Left */
+        order: 1 !important;
+        /* Left */
         width: 320px !important;
     }
+
     .gallery-container {
-        order: 2 !important; /* Right */
+        order: 2 !important;
+        /* Right */
         flex: 1;
     }
 }
@@ -1001,16 +1011,23 @@ body {
     .app-container {
         flex-direction: column !important;
     }
+
     .gallery-container {
-        order: 1 !important; /* Visor/Photo First */
-         height: 65vh !important; /* Ensure good height */
+        order: 1 !important;
+        /* Visor/Photo First */
+        height: 65vh !important;
+        /* Ensure good height */
     }
+
     .controls-sidebar {
-        order: 2 !important; /* Controls Below */
+        order: 2 !important;
+        /* Controls Below */
         width: 100% !important;
         height: auto !important;
-        max-height: 40vh !important; /* Limit height so it doesn't push off screen */
+        max-height: 40vh !important;
+        /* Limit height so it doesn't push off screen */
     }
+
     /* Ensure logo is small on mobile sidebar too */
     .brand img {
         max-width: 120px !important;
@@ -1023,20 +1040,24 @@ body {
 /* FIX FRAME SELECTOR OVERFLOW */
 .frame-selector-row {
     display: flex;
-    flex-wrap: wrap !important; /* Force wrapping to next line */
+    flex-wrap: wrap !important;
+    /* Force wrapping to next line */
     gap: 0.5rem;
-    justify-content: center; /* Center items */
+    justify-content: center;
+    /* Center items */
     margin-bottom: 1.5rem;
     width: 100%;
 }
 
 .frame-selector-row .frame-option {
-    flex: 1 1 auto; /* Grow/Shrink */
-    min-width: 80px; /* Minimum width */
-    max-width: 48%; /* 2 per line mostly */
+    flex: 1 1 auto;
+    /* Grow/Shrink */
+    min-width: 80px;
+    /* Minimum width */
+    max-width: 48%;
+    /* 2 per line mostly */
     text-align: center;
     justify-content: center;
     font-size: 0.8rem;
     padding: 0.5rem;
 }
-
