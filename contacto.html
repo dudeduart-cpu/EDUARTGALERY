@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Tu Arte</title>
+    <link rel="stylesheet" href="main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><img src="assets/logo_banner.png" alt="Logo"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre Mí</a></li>
+            <li><a href="colecciones.html">Colecciones</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+            <li><a href="colecciones.html" class="btn-highlight">Probador Virtual</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Hablemos sobre comisiones, compras o colaboraciones.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container" style="max-width:600px; margin:0 auto;">
+            <form style="display:flex; flex-direction:column; gap:1.5rem;">
+                <div>
+                    <label style="display:block; margin-bottom:0.5rem; font-weight:700;">Nombre</label>
+                    <input type="text" style="width:100%; padding:1rem; border:1px solid #ddd; border-radius:4px;"
+                        placeholder="Tu nombre">
+                </div>
+                <div>
+                    <label style="display:block; margin-bottom:0.5rem; font-weight:700;">Email</label>
+                    <input type="email" style="width:100%; padding:1rem; border:1px solid #ddd; border-radius:4px;"
+                        placeholder="tu@email.com">
+                </div>
+                <div>
+                    <label style="display:block; margin-bottom:0.5rem; font-weight:700;">Mensaje</label>
+                    <textarea
+                        style="width:100%; padding:1rem; border:1px solid #ddd; border-radius:4px; min-height:150px;"
+                        placeholder="¿En qué obra estás interesado?"></textarea>
+                </div>
+                <button type="button" class="btn primary-btn" style="border:1px solid #000; cursor:pointer;">Enviar
+                    Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tu Arte. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
