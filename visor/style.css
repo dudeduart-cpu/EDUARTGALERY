@@ -735,7 +735,7 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: SALON --- */
 .modal-frame-container.env-room {
-    background-image: url(bg/custom_living.jpg');
+    background-image: url(../bg/custom_living.jpg');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -755,7 +755,7 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: BEDROOM --- */
 .modal-frame-container.env-bedroom {
-    background-image: url(bg/custom_bedroom.png');
+    background-image: url(../bg/custom_bedroom.png');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -968,3 +968,4 @@ body {
     }
 }
 }
+
