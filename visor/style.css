@@ -969,3 +969,52 @@ body {
 }
 
 
+
+    
+/* --- CRITICAL LAYOUT FIXES (STEP 885) --- */
+
+/* 1. Global Logo Constraint (Desktop & Mobile) */
+.brand img {
+    max-width: 180px !important;
+    height: auto !important;
+    margin: 0 auto 1.5rem auto !important;
+    display: block;
+}
+
+/* 2. Desktop Layout Order (Sidebar LEFT, Gallery RIGHT) */
+@media (min-width: 901px) {
+    .app-container {
+        flex-direction: row !important;
+    }
+    .controls-sidebar {
+        order: 1 !important; /* Left */
+        width: 320px !important;
+    }
+    .gallery-container {
+        order: 2 !important; /* Right */
+        flex: 1;
+    }
+}
+
+/* 3. Mobile Layout Order (Gallery TOP, Sidebar BOTTOM) */
+@media (max-width: 900px) {
+    .app-container {
+        flex-direction: column !important;
+    }
+    .gallery-container {
+        order: 1 !important; /* Visor/Photo First */
+         height: 65vh !important; /* Ensure good height */
+    }
+    .controls-sidebar {
+        order: 2 !important; /* Controls Below */
+        width: 100% !important;
+        height: auto !important;
+        max-height: 40vh !important; /* Limit height so it doesn't push off screen */
+    }
+    /* Ensure logo is small on mobile sidebar too */
+    .brand img {
+        max-width: 120px !important;
+        margin-bottom: 0.5rem !important;
+    }
+}
+

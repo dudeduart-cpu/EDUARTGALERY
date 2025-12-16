@@ -12,30 +12,66 @@
 
     <!-- CRITICAL CSS PATCHES (INLINE TO AVOID CACHE) -->
     <style>
-        /* 1. Fix Huge Logo in Sidebar */
+        /* 1. Global Logo Constraint (Desktop & Mobile) */
         .brand img {
             max-width: 180px !important;
-            /* Force reasonable size */
             height: auto !important;
-            display: block !important;
-            margin: 0 auto 1rem auto !important;
+            margin: 0 auto 1.5rem auto !important;
+            display: block;
         }
 
-        /* 2. Fix Small Photo on Mobile */
-        @media (max-width: 900px) {
-
-            /* Increase photo container height on mobile */
-            .modal-frame-container {
-                height: 60vh !important;
-                /* Was 50vh, increase to 60-65% */
-                min-height: 400px;
-                /* Ensure minimum height */
+        /* 2. Desktop Layout Check (Sidebar LEFT) */
+        @media (min-width: 901px) {
+            .app-container {
+                flex-direction: row !important;
             }
 
-            /* Ensure logo stays small on mobile specific sidebar override */
+            .controls-sidebar {
+                order: 1 !important;
+                /* Forces Sidebar to Left */
+                width: 300px !important;
+            }
+
+            .gallery-container {
+                order: 2 !important;
+                /* Forces Photo to Right */
+                flex: 1;
+            }
+        }
+
+        /* 3. Mobile Layout Fixes */
+        @media (max-width: 900px) {
+            .app-container {
+                flex-direction: column !important;
+            }
+
+            /* Visor/Photo goes FIRST on mobile */
+            .gallery-container {
+                order: 1 !important;
+                height: 65vh !important;
+                /* Ensure height */
+                min-height: 400px;
+            }
+
+            /* Controls go BELOW */
+            .controls-sidebar {
+                order: 2 !important;
+                width: 100% !important;
+                height: auto !important;
+                border-right: none;
+                border-top: 1px solid #ddd;
+                padding-top: 1rem;
+            }
+
+            /* Smaller logo on mobile sidebar */
             .controls-sidebar .brand img {
-                max-width: 150px !important;
-                /* Even smaller on mobile sidebar */
+                max-width: 120px !important;
+                margin-bottom: 0.5rem !important;
+            }
+
+            /* Landing page fixes */
+            .landing-title {
+                font-size: 2rem !important;
             }
         }
     </style>
