@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -99,22 +99,22 @@
 <body>
 
     <div class="card">
-        <h1>🎨 Generador de Obras</h1>
-        <p>Usa esta herramienta para crear el código de tus nuevas obras sin errores.</p>
+        <h1>ðŸŽ¨ Generador de Obras</h1>
+        <p>Usa esta herramienta para crear el cÃ³digo de tus nuevas obras sin errores.</p>
 
         <div class="form-group">
             <label>1. Nombre del Archivo de Imagen</label>
             <input type="text" id="imgName" placeholder="Ej: mi_cuadro.jpg">
-            <div class="help-text">⚠️ Asegúrate de que este archivo ya esté dentro de la carpeta <b>assets</b>.</div>
+            <div class="help-text">âš ï¸ AsegÃºrate de que este archivo ya estÃ© dentro de la carpeta <b>assets</b>.</div>
         </div>
 
         <div class="form-group">
-            <label>2. Título de la Obra</label>
+            <label>2. TÃ­tulo de la Obra</label>
             <input type="text" id="title" placeholder="Ej: Atardecer en la Playa">
         </div>
 
         <div class="form-group">
-            <label>3. Categoría</label>
+            <label>3. CategorÃ­a</label>
             <input type="text" id="category" list="cat-suggestions" placeholder="Ej: Paisaje">
             <datalist id="cat-suggestions">
                 <option value="Abstracto">
@@ -125,31 +125,31 @@
         </div>
 
         <div class="form-group">
-            <label>4. Descripción / Técnica</label>
-            <textarea id="desc" rows="3" placeholder="Ej: Óleo sobre lienzo, 2025. Una obra inspirada en..."></textarea>
+            <label>4. DescripciÃ³n / TÃ©cnica</label>
+            <textarea id="desc" rows="3" placeholder="Ej: Ã“leo sobre lienzo, 2025. Una obra inspirada en..."></textarea>
         </div>
 
         <div class="form-group">
-            <label>5. Tamaño (Opcional)</label>
+            <label>5. TamaÃ±o (Opcional)</label>
             <input type="text" id="size" placeholder="Ej: 100x80cm">
         </div>
 
         <div class="form-group">
             <label>6. Precio (Opcional)</label>
-            <input type="text" id="price" placeholder="Ej: 1200€ (o deja en blanco para 'Consultar')">
+            <input type="text" id="price" placeholder="Ej: 1200â‚¬ (o deja en blanco para 'Consultar')">
         </div>
 
-        <button onclick="generateCode()">✨ Generar Código</button>
+        <button onclick="generateCode()">âœ¨ Generar CÃ³digo</button>
 
         <div id="result-area">
-            <h3>¡Código Listo!</h3>
-            <p>1. Dale al botón "Copiar".<br>2. Abre el archivo <code>js/data.js</code>.<br>3. Pégalo al final de la
+            <h3>Â¡CÃ³digo Listo!</h3>
+            <p>1. Dale al botÃ³n "Copiar".<br>2. Abre el archivo <code>js/data.js</code>.<br>3. PÃ©galo al final de la
                 lista.</p>
 
             <div class="code-block" id="codeOutput"></div>
 
-            <button onclick="copyToClipboard()" style="background: #28a745;">📋 Copiar al Portapapeles</button>
-            <p class="success-msg" id="successMsg">¡Copiado! Ahora pégalo en data.js</p>
+            <button onclick="copyToClipboard()" style="background: #28a745;">ðŸ“‹ Copiar al Portapapeles</button>
+            <p class="success-msg" id="successMsg">Â¡Copiado! Ahora pÃ©galo en data.js</p>
         </div>
     </div>
 
@@ -163,7 +163,7 @@
             const price = document.getElementById('price').value.trim();
 
             if (!img || !title) {
-                alert("Por favor, rellena al menos el Nombre del Archivo y el Título.");
+                alert("Por favor, rellena al menos el Nombre del Archivo y el TÃ­tulo.");
                 return;
             }
 
@@ -174,7 +174,7 @@
         id: "${id}",
         title: "${title}",
         category: "${category}",
-        src: "assets/${img}",
+        src: "${img}",
         description: "${desc}",
         size: "${size || 'Consultar'}",
         price: "${price || 'Consultar'}"
