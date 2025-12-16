@@ -9,6 +9,36 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap"
         rel="stylesheet">
+
+    <!-- CRITICAL CSS PATCHES (INLINE TO AVOID CACHE) -->
+    <style>
+        /* 1. Fix Huge Logo in Sidebar */
+        .brand img {
+            max-width: 180px !important;
+            /* Force reasonable size */
+            height: auto !important;
+            display: block !important;
+            margin: 0 auto 1rem auto !important;
+        }
+
+        /* 2. Fix Small Photo on Mobile */
+        @media (max-width: 900px) {
+
+            /* Increase photo container height on mobile */
+            .modal-frame-container {
+                height: 60vh !important;
+                /* Was 50vh, increase to 60-65% */
+                min-height: 400px;
+                /* Ensure minimum height */
+            }
+
+            /* Ensure logo stays small on mobile specific sidebar override */
+            .controls-sidebar .brand img {
+                max-width: 150px !important;
+                /* Even smaller on mobile sidebar */
+            }
+        }
+    </style>
 </head>
 
 <body>
