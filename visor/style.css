@@ -1018,3 +1018,25 @@ body {
     }
 }
 
+
+
+/* FIX FRAME SELECTOR OVERFLOW */
+.frame-selector-row {
+    display: flex;
+    flex-wrap: wrap !important; /* Force wrapping to next line */
+    gap: 0.5rem;
+    justify-content: center; /* Center items */
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.frame-selector-row .frame-option {
+    flex: 1 1 auto; /* Grow/Shrink */
+    min-width: 80px; /* Minimum width */
+    max-width: 48%; /* 2 per line mostly */
+    text-align: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
