@@ -1,4 +1,4 @@
-/* CSS Variables & Reset */
+﻿/* CSS Variables & Reset */
 :root {
     --bg-color: #f9f9f9;
     --sidebar-bg: #ffffff;
@@ -735,7 +735,7 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: SALON --- */
 .modal-frame-container.env-room {
-    background-image: url('../assets/bg/custom_living.jpg');
+    background-image: url(bg/custom_living.jpg');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -755,7 +755,7 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: BEDROOM --- */
 .modal-frame-container.env-bedroom {
-    background-image: url('../assets/bg/custom_bedroom.png');
+    background-image: url(bg/custom_bedroom.png');
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -773,7 +773,7 @@ body {
 
 /* --- ROOM ENVIRONMENT MODE: TABLETOP --- */
 .modal-frame-container.env-table {
-    background-image: url('../assets/porta_CON_MESA_rotado.png');
+    background-image: url(porta_CON_MESA_rotado.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
