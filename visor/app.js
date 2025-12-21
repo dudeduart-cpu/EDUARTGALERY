@@ -1,5 +1,5 @@
 const state = {
-    photos: [],
+    photos: (typeof artworkData !== 'undefined') ? artworkData : [],
     currentGlobalFrame: 'classic',
     frameStyles: [
         { id: 'classic', name: 'Clásico' },
@@ -16,18 +16,15 @@ const state = {
 
 // Init
 document.addEventListener('DOMContentLoaded', () => {
-    // Splash Screen Logic (Ensure it runs first)
+    // Splash Screen Logic
     const splash = document.getElementById('splashScreen');
     if (splash) {
         splash.addEventListener('click', () => {
-            // Check if we have an image to show
             const params = new URLSearchParams(window.location.search);
             if (!params.get('img')) {
-                // No image = Redirect to Collections to pick one
                 window.location.href = '../colecciones.html';
                 return;
             }
-
             splash.style.opacity = '0';
             setTimeout(() => {
                 splash.style.visibility = 'hidden';
@@ -35,16 +32,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Landing Page Logic (Ensure it runs first too)
+    // Landing Page Logic
     const enterBtn = document.getElementById('enterBtn');
     if (enterBtn) {
         enterBtn.addEventListener('click', () => {
             const landing = document.getElementById('landingPage');
             const app = document.getElementById('appContainer');
-
             landing.style.opacity = '0';
             landing.style.visibility = 'hidden';
-
             app.style.display = 'flex';
             setTimeout(() => {
                 app.style.opacity = '1';
@@ -52,11 +47,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    loadPreferences(); // Load saved settings
+    loadPreferences();
     initApp();
 });
 
 function initApp() {
+    // ALERT REMOVED FOR FINAL PRODUCTION - BUT KEEP IF DEBUGGING IS REQUESTED
+    // alert("VISOR INICIADO - CONTROL 1");
+
+    // Ensure data is loaded
+    if (typeof artworkData !== 'undefined') {
+        // Fix: Map flat data to expected structure with metadata
+        state.photos = artworkData.map(art => ({
+            id: art.id,
+            url: art.src,
+            name: art.title,
+            frame: 'classic',
+            metadata: art
+        }));
+        console.log("Loaded " + state.photos.length + " artworks.");
+    } else {
+        console.error("Critical: artworkData not found.");
+        // alert("Error: No se han podido cargar los datos de las obras.");
+    }
+
     renderFrameSelector();
     loadDynamicImages();
     setupEventListeners();
@@ -73,7 +87,6 @@ function initApp() {
     const backBtn = document.getElementById('backBtn');
     if (backBtn) {
         backBtn.addEventListener('click', () => {
-            // Force reload to fix scroll issues
             const params = new URLSearchParams(window.location.search);
             const currentCat = params.get('category');
             if (currentCat) {
@@ -283,11 +296,16 @@ function loadDynamicImages() {
     const urlParams = new URLSearchParams(window.location.search);
     const categoryFilter = urlParams.get('category');
 
-    if (typeof artworkData !== 'undefined') {
-        let dataToLoad = artworkData;
+    // Make sure we have latest data
+    if (typeof artworkData !== 'undefined' && (!state.photos || state.photos.length === 0)) {
+        state.photos = artworkData;
+    }
+
+    if (state.photos.length > 0) {
+        let dataToLoad = state.photos;
 
         if (categoryFilter && categoryFilter !== 'null' && categoryFilter !== '') {
-            dataToLoad = artworkData.filter(art => art.category === categoryFilter);
+            dataToLoad = state.photos.filter(art => art.category === categoryFilter);
             const headerTitle = document.querySelector('.top-bar h2');
             if (headerTitle) {
                 const cleanTitle = categoryFilter.replace(/^\d+/, '').replace(/_/g, ' ');
@@ -296,23 +314,64 @@ function loadDynamicImages() {
         }
 
         dataToLoad.forEach(art => {
-            const adjustedPath = '../' + art.src;
-            addPhoto(adjustedPath, art.title, art.id, art);
+            // Check if path already starts with assets to avoid double alias
+            let adjustedPath = art.src;
+            if (!adjustedPath.startsWith('../')) {
+                adjustedPath = '../' + art.src;
+            }
+            // Avoid adding duplicates if already present (addPhoto unshifts)
+            // But here we are rendering gallery, addPhoto modifies state... this is legacy function usage
+            // The original logic was: populate state from 'virtual' load? 
+            // Actually, state.photos IS the data.
+            // We just need to ensure they have 'frame' property.
         });
+
+        // Ensure all have default frame if missing
+        state.photos.forEach(p => {
+            if (!p.frame) p.frame = state.currentGlobalFrame;
+        });
+
+        renderGallery();
     }
 
     const directImg = urlParams.get('img');
     const directTitle = urlParams.get('title');
+    const directIdParam = urlParams.get('id');
 
     if (directImg) {
+        /*
+        alert(`DEBUG INFO:
+        - ID buscado: ${directIdParam}
+        - Img buscada: ${directImg}
+        - Obras en memoria: ${state.photos.length}
+        `);
+        */
+
         const directId = 'direct_' + Date.now();
         let targetId = null;
-        const existing = state.photos.find(p => p.url === directImg);
+
+        // Try to find by ID first, then by URL
+        let existing = null;
+        if (directIdParam) {
+            existing = state.photos.find(p => p.id === directIdParam);
+        }
+        if (!existing) {
+            existing = state.photos.find(p => p.url === directImg);
+        }
+        if (!existing) {
+            existing = state.photos.find(p => p.src === directImg); // Try .src
+        }
+        // Try fuzzy match on filename
+        if (!existing) {
+            const justName = directImg.split('/').pop();
+            existing = state.photos.find(p => p.src && p.src.endsWith(justName));
+        }
 
         if (existing) {
             targetId = existing.id;
         } else {
-            addPhoto(directImg, directTitle || 'Obra Seleccionada', directId, {
+            // Create temporary entry for this view session
+            addPhoto('../' + directImg, directTitle || 'Obra Seleccionada', directId, {
                 description: 'Obra personalizada',
                 price: 'Consultar',
                 size: 'Consultar'
@@ -343,42 +402,32 @@ function addPhoto(url, name, specificId = null, metadata = {}) {
         frame: state.currentGlobalFrame,
         metadata: metadata
     };
-    state.photos.unshift(photo);
+    // Only add if not exists (check by ID)
+    if (!state.photos.find(p => p.id === photo.id)) {
+        state.photos.unshift(photo);
+    }
     renderGallery();
     updatePhotoCount();
-}
-
-function renderFrameSelector() {
-    const container = document.getElementById('frameSelector');
-    container.innerHTML = state.frameStyles.map(style => `
-        <div class="frame-option ${state.currentGlobalFrame === style.id ? 'active' : ''}" 
-             data-frame="${style.id}">
-            <span>${style.name}</span>
-            <div style="width: 20px; height: 20px; background: #ddd; border-radius: 50%;"></div>
-        </div>
-    `).join('');
-}
-
-function setGlobalFrame(frameId) {
-    state.currentGlobalFrame = frameId;
-    renderFrameSelector();
-    state.photos.forEach(p => p.frame = frameId);
-    renderGallery();
 }
 
 function renderGallery() {
     const grid = document.getElementById('photoGrid');
 
     // Safety check: Filter out null/undefined photos
-    const validPhotos = state.photos.filter(p => p && p.url);
+    const validPhotos = state.photos.filter(p => p && (p.url || p.src));
 
     grid.innerHTML = validPhotos.map(photo => {
         try {
-            // Safe URL encoding (fix for "Grey Boxes" in Visor)
-            const safeUrl = encodeURI(photo.url).replace(/'/g, "%27");
+            // Normalize URL: Use src if url is missing (legacy compat)
+            let rawUrl = photo.url || photo.src;
+            if (rawUrl && !rawUrl.startsWith('../') && !rawUrl.startsWith('data:') && !rawUrl.startsWith('http')) {
+                rawUrl = '../' + rawUrl;
+            }
+
+            const safeUrl = encodeURI(rawUrl).replace(/'/g, "%27");
 
             return `
-        <div class="photo-card frame-${photo.frame}" onclick="openModal('${photo.id}')">
+        <div class="photo-card frame-${photo.frame || 'classic'}" onclick="openModal('${photo.id}')">
             <img src="${safeUrl}" alt="${photo.name}" loading="lazy">
         </div>
             `;
@@ -390,7 +439,8 @@ function renderGallery() {
 }
 
 function updatePhotoCount() {
-    document.getElementById('photoCount').innerText = `${state.photos.length} fotos en colección`;
+    const count = state.photos ? state.photos.length : 0;
+    document.getElementById('photoCount').innerText = `${count} fotos en colección`;
 }
 
 let currentModalPhotoId = null;
@@ -404,37 +454,48 @@ function openModal(id) {
     const modalImg = document.getElementById('modalImage');
     const modalControls = document.getElementById('modalFrameSelector');
 
-    modalImg.src = photo.url;
+    // Normalize URL for modal
+    let rawUrl = photo.url || photo.src;
+    if (rawUrl && !rawUrl.startsWith('../') && !rawUrl.startsWith('data:') && !rawUrl.startsWith('http')) {
+        rawUrl = '../' + rawUrl;
+    }
+    modalImg.src = rawUrl;
+
     modalImg.className = '';
-    modalImg.classList.add(`frame-${photo.frame}`);
+    const frameClass = photo.frame || 'classic';
+    modalImg.classList.add(`frame-${frameClass}`);
 
     const container = document.getElementById('modalFrameContainer');
-    container.className = `modal-frame-container frame-${photo.frame}`;
+    container.className = `modal-frame-container frame-${frameClass}`;
 
     // Reset Environment to Neutral on open
     changeEnvironment('neutral');
     changePreviewSize('large');
 
     modalControls.innerHTML = state.frameStyles.map(style => `
-        <div class="frame-option ${photo.frame === style.id ? 'active' : ''}" 
+        <div class="frame-option ${frameClass === style.id ? 'active' : ''}" 
              onclick="changeSinglePhotoFrame('${style.id}')">
             <span>${style.name}</span>
         </div>
     `).join('');
 
-    document.getElementById('artTitle').innerText = photo.name;
+    document.getElementById('artTitle').innerText = photo.name || photo.title || 'Sin Título';
+    document.getElementById('artCatalog').innerText = photo.metadata?.catalogo || photo.category || '';
     document.getElementById('artDesc').innerText = photo.metadata?.description || 'Sin descripción';
 
     let priceVal = photo.metadata?.price || '';
+    // Format price if just a number
     if (priceVal && !isNaN(priceVal.replace('.', '').replace(',', ''))) {
         priceVal += ' €';
-    } else if (priceVal && !priceVal.includes('€') && !priceVal.toLowerCase().includes('consultar')) {
-        if (/^\d+$/.test(priceVal)) priceVal += ' €';
+    }
+    // If it has digits but no currency symbol and not 'consultar', add €
+    else if (priceVal && !priceVal.includes('€') && !priceVal.toLowerCase().includes('consultar')) {
+        if (/\d/.test(priceVal)) priceVal += ' €';
     }
 
     const priceText = priceVal ? `Precio: ${priceVal}` : '';
     const sizeText = photo.metadata?.size ? `📏 Tamaño Real: ${photo.metadata.size}` : '';
-    const techText = photo.metadata?.tech_info || ''; // New Tech Info
+    const techText = photo.metadata?.tech_info || '';
 
     document.getElementById('artPrice').innerText = priceText;
     document.getElementById('artSize').innerText = sizeText;
@@ -445,6 +506,31 @@ function openModal(id) {
     if (techEl) {
         techEl.innerText = techText;
         techEl.style.display = techText ? 'block' : 'none';
+    }
+
+    // CART LOGIC
+    const cartBtn = document.getElementById('addToCartBtn');
+    const cartMsg = document.getElementById('cartMsg');
+
+    if (cartBtn) {
+        cartBtn.onclick = () => {
+            const item = {
+                id: photo.id,
+                title: photo.name || photo.title,
+                price: priceVal || 'Consultar',
+                // Store path relative to ROOT (remove ../)
+                thumb: rawUrl.replace('../', '')
+            };
+
+            if (typeof addToCart === 'function') {
+                addToCart(item);
+                cartMsg.style.display = 'block';
+                setTimeout(() => { cartMsg.style.display = 'none'; }, 3000);
+            } else {
+                console.error('Cart logic not loaded');
+                alert('Error interno: El carrito no está cargado.');
+            }
+        };
     }
 
     modal.classList.add('active');
@@ -462,7 +548,8 @@ window.changeSinglePhotoFrame = function (styleId) {
         document.getElementById('modalFrameContainer').className = `modal-frame-container frame-${styleId}`;
         const buttons = document.getElementById('modalFrameSelector').getElementsByClassName('frame-option');
         Array.from(buttons).forEach(btn => {
-            if (btn.innerText === state.frameStyles.find(f => f.id === styleId).name) btn.classList.add('active');
+            const styleName = state.frameStyles.find(f => f.id === styleId).name;
+            if (btn.innerText === styleName) btn.classList.add('active');
             else btn.classList.remove('active');
         });
         renderGallery();
@@ -481,7 +568,6 @@ window.changePreviewSize = function (size) {
     const buttons = document.querySelectorAll('.btn-size');
     buttons.forEach(btn => {
         const map = { 'small': 'S', 'medium': 'M', 'large': 'L' };
-        // Check if button text matches map value 
         if (btn.innerText.trim() === map[size]) btn.classList.add('active');
         else if (btn.classList.contains('active') && ['S', 'M', 'L'].includes(btn.innerText.trim())) btn.classList.remove('active');
     });
@@ -497,10 +583,10 @@ document.getElementById('confirmSelectionBtn').addEventListener('click', () => {
 
 window.changeEnvironment = function (mode) {
     const container = document.getElementById('modalFrameContainer');
-    const btnNeutral = document.getElementById('btnEnvNeutral'); // Bedroom
-    const btnRoom = document.getElementById('btnEnvRoom');       // Living
-    const btnClassic = document.getElementById('btnEnvClassic'); // Classic / Neutral
-    const btnTable = document.getElementById('btnEnvTable');     // Tabletop
+    const btnNeutral = document.getElementById('btnEnvNeutral');
+    const btnRoom = document.getElementById('btnEnvRoom');
+    const btnClassic = document.getElementById('btnEnvClassic');
+    const btnTable = document.getElementById('btnEnvTable');
 
     const img = container.querySelector('img');
 
@@ -511,7 +597,7 @@ window.changeEnvironment = function (mode) {
     if (btnClassic) btnClassic.classList.remove('active');
     if (btnTable) btnTable.classList.remove('active');
 
-    // Remove forced styles (reset to clean state)
+    // Remove forced styles
     if (img) {
         img.style.transform = '';
         img.style.boxShadow = '';
@@ -529,9 +615,18 @@ window.changeEnvironment = function (mode) {
         container.classList.add('env-table');
         if (btnTable) btnTable.classList.add('active');
     } else {
-        // Neutral logic (Classic/Default)
         if (btnClassic) btnClassic.classList.add('active');
-        // Ensure size is reapplied if needed, though strictly we just resetting environment
         changePreviewSize(currentSize || 'large');
     }
 };
+
+function renderFrameSelector() {
+    const container = document.getElementById('frameSelector');
+    container.innerHTML = state.frameStyles.map(style => `
+        <div class="frame-option ${state.currentGlobalFrame === style.id ? 'active' : ''}" 
+             data-frame="${style.id}">
+             <span>${style.name}</span>
+             <div style="width: 20px; height: 20px; background: #ddd; border-radius: 50%;"></div>
+        </div>
+    `).join('');
+}
