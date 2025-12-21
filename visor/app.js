@@ -527,3 +527,6 @@ window.changeEnvironment = function (mode) {
         changePreviewSize(currentSize || 'large');
     }
 };
+
+// ... existing code ...
+
