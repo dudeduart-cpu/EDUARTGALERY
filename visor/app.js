@@ -434,10 +434,18 @@ function openModal(id) {
 
     const priceText = priceVal ? `Precio: ${priceVal}` : '';
     const sizeText = photo.metadata?.size ? `📏 Tamaño Real: ${photo.metadata.size}` : '';
+    const techText = photo.metadata?.tech_info || ''; // New Tech Info
 
     document.getElementById('artPrice').innerText = priceText;
     document.getElementById('artSize').innerText = sizeText;
     document.getElementById('artSize').style.display = sizeText ? 'block' : 'none';
+
+    // Update Tech Info
+    const techEl = document.getElementById('artTechInfo');
+    if (techEl) {
+        techEl.innerText = techText;
+        techEl.style.display = techText ? 'block' : 'none';
+    }
 
     modal.classList.add('active');
 }
