@@ -277,9 +277,12 @@
                 <div id="artDetails" class="art-details"
                     style="margin-bottom: 2rem; border-bottom: 1px solid #eee; padding-bottom: 2rem; background: #fafafa; padding: 1.5rem; border-radius: 8px;">
                     <h2 id="artTitle"
-                        style="font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 1rem; color: #111; line-height: 1.2;">
+                        style="font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 0.5rem; color: #111; line-height: 1.2;">
                         Título
                         de la Obra</h2>
+                    <p id="artCatalog"
+                        style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; color: #888; margin-bottom: 1rem;">
+                        Colección</p>
                     <p id="artDesc"
                         style="font-family: 'Lato', sans-serif; color: #555; font-size: 1.1rem; margin-bottom: 1rem; line-height: 1.6;">
                         Descripción</p>
@@ -293,6 +296,16 @@
                     </div>
                     <p id="artSize" style="font-family: 'Lato', sans-serif; color: #555; font-size: 1rem;">
                         Tamaño</p>
+
+                    <button id="addToCartBtn" class="btn-primary"
+                        style="width:100%; margin-top:1.5rem; background:#1a1a1a; color:white; border:none; padding:1rem; cursor:pointer; font-weight:bold;">
+                        Añadir al Carrito
+                    </button>
+                    <div id="cartMsg"
+                        style="text-align:center; color:green; margin-top:0.5rem; display:none; font-weight:bold;">
+                        ¡Añadido! <a href="../carrito.html" style="color:green; text-decoration:underline;">Ver
+                            Carrito</a>
+                    </div>
                 </div>
 
                 <!-- Environment Selector (Moved to Top) -->
@@ -348,11 +361,13 @@
                     Lo quiero en este formato
                 </button>
             </div>
+            <script>console.log("HTML loaded, waiting for scripts...");</script>
         </div>
     </div>
 
-    <script src="../js/data.js?v=2"></script>
-    <script src="app.js?v=2"></script>
+    <script src="../js/data.js?v=53"></script>
+    <script src="../js/cart.js?v=53"></script>
+    <script src="app.js?v=53"></script>
 </body>
 
 </html>
