@@ -28,211 +28,211 @@ const artworkData = [
     {
         "id": "01exp_neocirc_10___10hollywood_jpg",
         "title": "10HOLLYWOOD",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/10_-_10HOLLYWOOD.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/10_-_10HOLLYWOOD.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_11___11la_selva_africana_jpg",
         "title": "11la selva africana",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/11_-_11la_selva_africana.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/11_-_11la_selva_africana.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_12___12las_piramides_jpg",
         "title": "12LAS PIRAMIDES",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/12_-_12LAS_PIRAMIDES.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/12_-_12LAS_PIRAMIDES.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_13___13luarca_jpg",
         "title": "13LUARCA",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/13_-_13LUARCA.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/13_-_13LUARCA.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_14___14nepal_jpg",
         "title": "14NEPAL",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/14_-_14NEPAL.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/14_-_14NEPAL.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_15___15peces_en_el_fondo_jpg",
         "title": "15PECES EN EL FONDO",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/15_-_15PECES_EN_EL_FONDO.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/15_-_15PECES_EN_EL_FONDO.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_16___16pekin_jpg",
         "title": "16PEKIN",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/16_-_16PEKIN.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/16_-_16PEKIN.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_17___17new_york_estatua_jpg",
         "title": "17NEW YORK ESTATUA",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/17_-_17NEW_YORK_ESTATUA.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/17_-_17NEW_YORK_ESTATUA.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_18___18pueblo_en_la_costa_jpg",
         "title": "18PUEBLO EN LA COSTA",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/18_-_18PUEBLO_EN_LA_COSTA.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/18_-_18PUEBLO_EN_LA_COSTA.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_19___19san_sebastian_jpg",
         "title": "19SAN SEBASTIAN",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/19_-_19SAN_SEBASTIAN.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/19_-_19SAN_SEBASTIAN.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_1___01los_vigias_del_valle_solar_jpg",
         "title": "01Los vigias del valle solar",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/1_-_01Los_vigias_del_valle_solar.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/1_-_01Los_vigias_del_valle_solar.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_2___02el_sendero_de_los_globos_y_las_casas_de_piedra_jpg",
         "title": "02El sendero de los globos y las casas de piedra",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/2_-_02El_sendero_de_los_globos_y_las_casas_de_piedra.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/2_-_02El_sendero_de_los_globos_y_las_casas_de_piedra.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_3___03mesa_de_los_vortices_png",
         "title": "03Mesa de los vortices",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/3_-_03Mesa_de_los_vortices.png",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/3_-_03Mesa_de_los_vortices.png",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_4___04la_puerta_del_desierto_y_el_cielo_concentrico_png",
         "title": "04La puerta del desierto y el cielo concentrico",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/4_-_04La_puerta_del_desierto_y_el_cielo_concentrico.png",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/4_-_04La_puerta_del_desierto_y_el_cielo_concentrico.png",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_5___05_bahia_de_faros_y_redes_doradas_png",
         "title": "05 Bahia de faros y redes doradas",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/5_-_05_Bahia_de_faros_y_redes_doradas.png",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/5_-_05_Bahia_de_faros_y_redes_doradas.png",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_6___06montanas_de_fuego_y_espejo_otonal_png",
         "title": "06Montanas de fuego y espejo otonal",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/6_-_06Montanas_de_fuego_y_espejo_otonal.png",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/6_-_06Montanas_de_fuego_y_espejo_otonal.png",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_7___07dos_rosas_exp_neocirc_png",
         "title": "07dos rosas EXP-NEOCIRC",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/7_-_07dos_rosas_EXP-NEOCIRC.png",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/7_-_07dos_rosas_EXP-NEOCIRC.png",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_8___08catedral_en_las_nubes_jpg",
         "title": "08CATEDRAL EN LAS NUBES",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/8_-_08CATEDRAL_EN_LAS_NUBES.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/8_-_08CATEDRAL_EN_LAS_NUBES.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "01exp_neocirc_9___09guardia_vaticano_jpg",
         "title": "09GUARDIA VATICANO",
-        "category": "EXP NEOCIRC",
-        "src": "assets/01EXP NEOCIRC/9_-_09GUARDIA_VATICANO.jpg",
-        "description": "Obra de la colección EXP NEOCIRC",
+        "category": "EXP_NEOCIRC",
+        "src": "assets/01EXP_NEOCIRC/9_-_09GUARDIA_VATICANO.jpg",
+        "description": "Obra de la colección EXP_NEOCIRC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "EXP NEOCIRC"
+        "catalogo": "EXP_NEOCIRC"
     },
     {
         "id": "02cubesse_stilo_10___colibri_2_jpeg",
@@ -952,46 +952,46 @@ const artworkData = [
     {
         "id": "06ide_classic_1___01puerta_corral_ide_classic_png",
         "title": "01puerta corral IDE Classic",
-        "category": "IDE CLASSIC",
-        "src": "assets/06IDE CLASSIC/1_-_01puerta_corral_IDE_Classic.png",
-        "description": "Obra de la colección IDE CLASSIC",
+        "category": "IDE_CLASSIC",
+        "src": "assets/06IDE_CLASSIC/1_-_01puerta_corral_IDE_Classic.png",
+        "description": "Obra de la colección IDE_CLASSIC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "IDE CLASSIC"
+        "catalogo": "IDE_CLASSIC"
     },
     {
         "id": "06ide_classic_2___02dos_rosas_en_ide_classic_png",
         "title": "02dos rosas en IDE Classic",
-        "category": "IDE CLASSIC",
-        "src": "assets/06IDE CLASSIC/2_-_02dos_rosas_en_IDE_Classic.png",
-        "description": "Obra de la colección IDE CLASSIC",
+        "category": "IDE_CLASSIC",
+        "src": "assets/06IDE_CLASSIC/2_-_02dos_rosas_en_IDE_Classic.png",
+        "description": "Obra de la colección IDE_CLASSIC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "IDE CLASSIC"
+        "catalogo": "IDE_CLASSIC"
     },
     {
         "id": "06ide_classic_3___toroide_classic_png",
         "title": "toroIDE Classic",
-        "category": "IDE CLASSIC",
-        "src": "assets/06IDE CLASSIC/3_-_toroIDE_Classic.png",
-        "description": "Obra de la colección IDE CLASSIC",
+        "category": "IDE_CLASSIC",
+        "src": "assets/06IDE_CLASSIC/3_-_toroIDE_Classic.png",
+        "description": "Obra de la colección IDE_CLASSIC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "IDE CLASSIC"
+        "catalogo": "IDE_CLASSIC"
     },
     {
         "id": "06ide_classic_bodegon_mesa_y_pan_png",
         "title": "BODEGON MESA Y PAN",
-        "category": "IDE CLASSIC",
-        "src": "assets/06IDE CLASSIC/BODEGON_MESA_Y_PAN.png",
-        "description": "Obra de la colección IDE CLASSIC",
+        "category": "IDE_CLASSIC",
+        "src": "assets/06IDE_CLASSIC/BODEGON_MESA_Y_PAN.png",
+        "description": "Obra de la colección IDE_CLASSIC",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "IDE CLASSIC"
+        "catalogo": "IDE_CLASSIC"
     },
     {
         "id": "07neoink_stilo_10___1763022514414_jpg",
@@ -1502,23 +1502,232 @@ const artworkData = [
     {
         "id": "cristal_cubico_bodegon_masa_y_pan_estilo_cristal_png",
         "title": "BODEGON MASA Y PAN estilo CRISTAL",
-        "category": "CRISTAL CUBICO",
-        "src": "assets/CRISTAL CUBICO/BODEGON_MASA_Y_PAN_estilo_CRISTAL.png",
-        "description": "Obra de la colección CRISTAL CUBICO",
+        "category": "CRISTAL_CUBICO",
+        "src": "assets/CRISTAL_CUBICO/BODEGON_MASA_Y_PAN_estilo_CRISTAL.png",
+        "description": "Obra de la colección CRISTAL_CUBICO",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "CRISTAL CUBICO"
+        "catalogo": "CRISTAL_CUBICO"
     },
     {
         "id": "cristal_cubico_rascacielos_cristal_cubico_png",
         "title": "rascacielos CRISTAL CUBICO",
-        "category": "CRISTAL CUBICO",
-        "src": "assets/CRISTAL CUBICO/rascacielos_CRISTAL_CUBICO.png",
-        "description": "Obra de la colección CRISTAL CUBICO",
+        "category": "CRISTAL_CUBICO",
+        "src": "assets/CRISTAL_CUBICO/rascacielos_CRISTAL_CUBICO.png",
+        "description": "Obra de la colección CRISTAL_CUBICO",
         "tech_info": "Técnica Mixta Digital",
         "size": "Consultar medidas",
         "price": "Consultar",
-        "catalogo": "CRISTAL CUBICO"
+        "catalogo": "CRISTAL_CUBICO"
+    },
+    {
+        "id": "portadillas_estilos_00edusse_jpg",
+        "title": "EDUSSE",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/00EDUSSE.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_01exp_neocirc_jpg",
+        "title": "EXP NEOCIRC",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/01EXP NEOCIRC.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_02cubesse_stilo_jpg",
+        "title": "CUBESSE stilo",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/02CUBESSE stilo.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_03expneoplus_jpg",
+        "title": "EXPNEOPLUS",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/03EXPNEOPLUS.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_04aplicc_jpg",
+        "title": "APLICC",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/04APLICC.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_05plumink_jpg",
+        "title": "PLUMINK",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/05PLUMINK.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_06ide_classic_jpg",
+        "title": "IDE CLASSIC",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/06IDE CLASSIC.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_07neoink_stilo_jpg",
+        "title": "NEOINK stilo",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/07NEOINK stilo.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_08boracarbon_jpg",
+        "title": "BORACARBON",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/08BORACARBON.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_09fracneo_jpg",
+        "title": "FRACNEO",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/09FRACNEO.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_cristal_cubico_jpg",
+        "title": "CRISTAL CUBICO",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/CRISTAL CUBICO.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_10_2025_12_15_18_32_25_jpg",
+        "title": "photo 10 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_10_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_11_2025_12_15_18_32_25_jpg",
+        "title": "photo 11 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_11_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_12_2025_12_15_18_32_25_jpg",
+        "title": "photo 12 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_12_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_2_2025_12_15_18_32_25_jpg",
+        "title": "photo 2 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_2_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_3_2025_12_15_18_32_25_jpg",
+        "title": "photo 3 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_3_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_4_2025_12_15_18_32_25_jpg",
+        "title": "photo 4 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_4_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_7_2025_12_15_18_32_25_jpg",
+        "title": "photo 7 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_7_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
+    },
+    {
+        "id": "portadillas_estilos_photo_8_2025_12_15_18_32_25_jpg",
+        "title": "photo 8 2025-12-15 18-32-25",
+        "category": "PORTADILLAS_ESTILOS",
+        "src": "assets/PORTADILLAS_ESTILOS/photo_8_2025-12-15_18-32-25.jpg",
+        "description": "Obra de la colección PORTADILLAS_ESTILOS",
+        "tech_info": "Técnica Mixta Digital",
+        "size": "Consultar medidas",
+        "price": "Consultar",
+        "catalogo": "PORTADILLAS_ESTILOS"
     }
 ];
