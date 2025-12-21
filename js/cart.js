@@ -44,10 +44,16 @@ function clearCart() {
 function updateCartCount() {
     const cart = getCart();
     const count = cart.length;
-    // Look for nav badge in all pages
+    // User requested badge style (just number)
     const badges = document.querySelectorAll('.cart-badge');
     badges.forEach(el => {
-        el.innerText = count > 0 ? `(${count})` : '';
+        if (count > 0) {
+            el.innerText = count;
+            el.style.display = 'inline-block';
+        } else {
+            el.innerText = '';
+            el.style.display = 'none';
+        }
     });
 }
 

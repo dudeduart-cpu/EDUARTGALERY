@@ -120,10 +120,12 @@ function createArtCard(art) {
 
     // Al hacer click, vamos al VISOR con esa imagen
     const viewerPath = '../' + art.src;
-    const viewerLink = `visor/index.html?img=${encodeURIComponent(viewerPath)}&title=${encodeURIComponent(art.title)}&category=${encodeURIComponent(art.category)}`;
+    const viewerLink = `visor/index.html?img=${encodeURIComponent(viewerPath)}&title=${encodeURIComponent(art.title)}&category=${encodeURIComponent(art.category)}&id=${art.id}`;
 
-    // Make the whole card clickable
-    el.setAttribute('onclick', `window.location.href='${viewerLink}'`);
+    // Make the whole card clickable safely
+    el.addEventListener('click', () => {
+        window.location.href = viewerLink;
+    });
     el.style.cursor = 'pointer';
 
     // Safe Price Check to avoid crash on null/undefined
