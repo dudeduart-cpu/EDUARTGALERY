@@ -342,3 +342,20 @@ footer {
         gap: 1rem;
     }
 }
+
+/* Badge Styles */
+.cart-badge {
+    background-color: #ff4d4d;
+    /* Red notification color */
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-left: 5px;
+    vertical-align: middle;
+    display: none;
+    /* JS will toggle */
+    min-width: 18px;
+    text-align: center;
+}
