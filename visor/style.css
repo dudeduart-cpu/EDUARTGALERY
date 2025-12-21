@@ -747,7 +747,7 @@ body {
 /* Adjust the image within the room (Living) */
 .modal-frame-container.env-room img {
     /* Scale down to look realistic on the wall */
-    transform: scale(1) translateX(30%) translateY(-15%);
+    transform: scale(0.6) translateX(30%) translateY(-15%);
     /* Add a subtle shadow for depth on the wall */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4) !important;
     max-height: 55vh !important;
@@ -765,7 +765,7 @@ body {
 }
 
 .modal-frame-container.env-bedroom img {
-    transform: scale(1) translateX(30%) translateY(-15%);
+    transform: scale(0.6) translateX(30%) translateY(-15%);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4) !important;
     max-height: 50vh !important;
 }
@@ -785,7 +785,7 @@ body {
     /* Position inside the new frame */
     /* Starting guess: Centered */
     transform-origin: center center;
-    transform: scale(1) translateX(30%) translateY(-15%);
+    transform: scale(0.6) translateX(30%) translateY(-15%);
     /* No rotation needed if image is front-facing */
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2) !important;
     max-height: 50vh !important;
