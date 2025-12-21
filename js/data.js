@@ -1415,41 +1415,5 @@ const artworkData = [
         "description": "Obra de la colección PORTADILLAS ESTILOS",
         "size": "Consultar",
         "price": "Consultar"
-    },
-    {
-        "id": "bg_custom_bedroom_png",
-        "title": "custom bedroom",
-        "category": "bg",
-        "src": "bg/custom_bedroom.png",
-        "description": "Obra de la colección bg",
-        "size": "Consultar",
-        "price": "Consultar"
-    },
-    {
-        "id": "bg_custom_living_jpg",
-        "title": "custom living",
-        "category": "bg",
-        "src": "bg/custom_living.jpg",
-        "description": "Obra de la colección bg",
-        "size": "Consultar",
-        "price": "Consultar"
-    },
-    {
-        "id": "bg_room_sofa_png",
-        "title": "room sofa",
-        "category": "bg",
-        "src": "bg/room_sofa.png",
-        "description": "Obra de la colección bg",
-        "size": "Consultar",
-        "price": "Consultar"
-    },
-    {
-        "id": "bg_table_frame_png",
-        "title": "table frame",
-        "category": "bg",
-        "src": "bg/table_frame.png",
-        "description": "Obra de la colección bg",
-        "size": "Consultar",
-        "price": "Consultar"
     }
 ];
