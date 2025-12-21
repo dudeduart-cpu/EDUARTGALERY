@@ -528,5 +528,69 @@ window.changeEnvironment = function (mode) {
     }
 };
 
+// --- LIVE CALIBRATION TOOL (Autoinjected) ---
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        // Create PROD Calibration Panel
+        if (!document.getElementById('prodCalPanel')) {
+            const panel = document.createElement('div');
+            panel.id = 'prodCalPanel';
+            panel.style.cssText = "position:fixed; bottom:10px; right:120px; width:300px; background:#fffbe6; border:2px solid #d90000; z-index:2147483647; padding:10px; display:none; box-shadow:0 0 20px rgba(0,0,0,0.5); font-family:sans-serif;";
+            panel.innerHTML = `
+                <h3 style="margin:0 0 5px; font-size:1rem; border-bottom:1px solid #ccc; color:#d90000;">🎛️ CALIBRADOR FINAL</h3>
+                
+                <label style="display:block; margin-top:5px; font-size:0.8rem; font-weight:bold;">Escala: <span id="lblS">0.25</span></label>
+                <input type="range" id="rngS" min="0.1" max="1" step="0.01" value="0.25" style="width:100%">
+                
+                <label style="display:block; margin-top:5px; font-size:0.8rem; font-weight:bold;">X (%): <span id="lblX">0</span></label>
+                <input type="range" id="rngX" min="-500" max="500" step="1" value="0" style="width:100%">
+                
+                <label style="display:block; margin-top:5px; font-size:0.8rem; font-weight:bold;">Y (%): <span id="lblY">0</span></label>
+                <input type="range" id="rngY" min="-1000" max="1000" step="1" value="0" style="width:100%">
+                
+                <textarea id="outCSS" style="width:100%; height:50px; margin-top:5px; font-size:0.7rem; font-family:monospace; border:1px solid #999;"></textarea>
+                <button onclick="this.parentElement.style.display='none'" style="position:absolute; top:5px; right:5px; border:none; background:transparent; cursor:pointer;">❌</button>
+            `;
+            document.body.appendChild(panel);
+
+            // Toggle Button
+            const btn = document.createElement('button');
+            btn.innerHTML = "🔧 CALIBRAR";
+            btn.style.cssText = "position:fixed; bottom:10px; right:10px; z-index:2147483647; background:#d90000; color:white; border:none; padding:8px 15px; cursor:pointer; font-weight:bold; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.3);";
+            btn.onclick = () => { panel.style.display = 'block'; };
+            document.body.appendChild(btn);
+
+            // Logic
+            const update = () => {
+                const s = document.getElementById('rngS').value;
+                const x = document.getElementById('rngX').value;
+                const y = document.getElementById('rngY').value;
+
+                document.getElementById('lblS').innerText = s;
+                document.getElementById('lblX').innerText = x;
+                document.getElementById('lblY').innerText = y;
+
+                const img = document.querySelector('.modal-frame-container img');
+                if (img) {
+                    img.style.transform = `scale(${s}) translateX(${x}%) translateY(${y}%)`;
+                    img.style.maxHeight = 'none'; // Unlock limits
+
+                    let mode = 'Mode';
+                    const c = document.querySelector('.modal-frame-container');
+                    if (c.classList.contains('env-room')) mode = 'SALON';
+                    if (c.classList.contains('env-bedroom')) mode = 'HABITACION';
+                    if (c.classList.contains('env-table')) mode = 'SOBREMESA';
+
+                    document.getElementById('outCSS').value = `${mode}: scale(${s}) translateX(${x}%) translateY(${y}%)`;
+                }
+            };
+
+            document.getElementById('rngS').oninput = update;
+            document.getElementById('rngX').oninput = update;
+            document.getElementById('rngY').oninput = update;
+        }
+    }, 2000);
+});
+
 // ... existing code ...
 
