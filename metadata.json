@@ -1,0 +1,15 @@
+{
+    "_INSTRUCCIONES": "Escribe aquí los datos de tus obras. El 'id' debe coincidir con el nombre del archivo (sin extensión).",
+    "ejemplo_obra_01": {
+        "title": "Atardecer Dorado",
+        "price": "150€",
+        "description": "Una obra inspirada en la luz del sur.",
+        "tech_info": "Óleo sobre lienzo digital, 4000x3000px, 300dpi."
+    },
+    "edu_CADILLAC_1982": {
+        "title": "Eduardo en Cadillac",
+        "price": "No a la venta",
+        "description": "Recuerdo histórico del grupo.",
+        "tech_info": "Fotografía analógica restaurada digitalmente."
+    }
+}
