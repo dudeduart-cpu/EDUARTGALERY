@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 14:17
+ * Generada automaticamente el 2025-12-27 14:23
  */
 
 // Mapa de Portadas por Estilo
@@ -27,13 +27,13 @@ const categoryCovers = {    "photo_7_2025-12-15_18-32-25": "PORTADILLAS_ESTILOS/
 
 const artworkData = [    {
         id:  "00edusse_el_guardian_del_circuito_solar_png",
-        title:  "El guardian del circuito solar",
+        title:  "El Guardián del Circuito Solar",
         category:  "00EDUSSE",
         src:  "00EDUSSE/El_guardian_del_circuito_solar.png",
-        description:  "Obra de la colección 00EDUSSE",
-        size:  "Consultar",
-        price:  "19,99",
-        tech_info: ""
+        description:  "Una obra inspirada en la luz del sur.",
+        size:  "100x100 cm",
+        price:  "185€",
+        tech_info: "Pintura digital, 1024x1024px, 150dpi"
     },
     {
         id:  "00edusse_la_vaca_solar_y_el_rio_de_signos_png",
