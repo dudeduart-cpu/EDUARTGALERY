@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 14:23
+ * Generada automaticamente el 2025-12-27 14:32
  */
 
 // Mapa de Portadas por Estilo
@@ -32,7 +32,7 @@ const artworkData = [    {
         src:  "00EDUSSE/El_guardian_del_circuito_solar.png",
         description:  "Una obra inspirada en la luz del sur.",
         size:  "100x100 cm",
-        price:  "185€",
+        price:  "19,99",
         tech_info: "Pintura digital, 1024x1024px, 150dpi"
     },
     {
