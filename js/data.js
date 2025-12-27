@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 13:41
+ * Generada automaticamente el 2025-12-27 13:50
  */
 
 // Mapa de Portadas por Estilo
@@ -218,7 +218,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_1___atenea_plus_png",
         title:  "ATENEA-PLUS",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/1_-_ATENEA-PLUS.png",
+        src:  "SAGA CUBESSEPLUS/1_-_ATENEA-PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -227,7 +227,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_2___barco_cubesse_plus_png",
         title:  "BARCO CUBESSE PLUS",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/2_-_BARCO_CUBESSE_PLUS.png",
+        src:  "SAGA CUBESSEPLUS/2_-_BARCO_CUBESSE_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -236,7 +236,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_3___barco_plus1_png",
         title:  "BARCO PLUS1",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/3_-_BARCO_PLUS1.png",
+        src:  "SAGA CUBESSEPLUS/3_-_BARCO_PLUS1.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -245,7 +245,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_4___batalla_de_dioses_plus_png",
         title:  "BATALLA DE DIOSES PLUS",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/4_-_BATALLA_DE_DIOSES_PLUS.png",
+        src:  "SAGA CUBESSEPLUS/4_-_BATALLA_DE_DIOSES_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -254,7 +254,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_5___batalla_de_otros_dioses_plus_png",
         title:  "Batalla de otros DIOSES PLUS",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/5_-_Batalla_de_otros_DIOSES_PLUS.png",
+        src:  "SAGA CUBESSEPLUS/5_-_Batalla_de_otros_DIOSES_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -263,7 +263,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_6___bodegon_1_plus_png",
         title:  "Bodegon 1 PLUS",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/6_-_Bodegon_1_PLUS.png",
+        src:  "SAGA CUBESSEPLUS/6_-_Bodegon_1_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -272,7 +272,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_7___copilot_20251121_121713_png",
         title:  "Copilot 20251121 121713",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/7_-_Copilot_20251121_121713.png",
+        src:  "SAGA CUBESSEPLUS/7_-_Copilot_20251121_121713.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -281,7 +281,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_8___poseidon_plus_png",
         title:  "Poseidon PLUS",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/8_-_Poseidon_PLUS.png",
+        src:  "SAGA CUBESSEPLUS/8_-_Poseidon_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -290,7 +290,7 @@ const artworkData = [    {
         id:  "02cubesse_stilo_9___toro_plus2_png",
         title:  "TORO PLUS2",
         category:  "02CUBESSE stilo",
-        src:  "02CUBESSE stilo/SAGA CUBESSEPLUS/9_-_TORO_PLUS2.png",
+        src:  "SAGA CUBESSEPLUS/9_-_TORO_PLUS2.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
         price:  "Consultar"
@@ -884,7 +884,7 @@ const artworkData = [    {
         id:  "06ide_classic_1___01puerta_corral_ide_classic_png",
         title:  "puerta corral IDE Classic",
         category:  "06IDE_CLASSIC",
-        src:  "06IDE_CLASSIC/1_-_01puerta_corral_IDE_Classic.png",
+        src:  "06IDE CLASSIC/1_-_01puerta_corral_IDE_Classic.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
         price:  "Consultar"
@@ -893,7 +893,7 @@ const artworkData = [    {
         id:  "06ide_classic_2___02dos_rosas_en_ide_classic_png",
         title:  "dos rosas en IDE Classic",
         category:  "06IDE_CLASSIC",
-        src:  "06IDE_CLASSIC/2_-_02dos_rosas_en_IDE_Classic.png",
+        src:  "06IDE CLASSIC/2_-_02dos_rosas_en_IDE_Classic.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
         price:  "Consultar"
@@ -902,7 +902,7 @@ const artworkData = [    {
         id:  "06ide_classic_3___toroide_classic_png",
         title:  "toroIDE Classic",
         category:  "06IDE_CLASSIC",
-        src:  "06IDE_CLASSIC/3_-_toroIDE_Classic.png",
+        src:  "06IDE CLASSIC/3_-_toroIDE_Classic.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
         price:  "Consultar"
@@ -911,7 +911,7 @@ const artworkData = [    {
         id:  "06ide_classic_bodegon_mesa_y_pan_png",
         title:  "BODEGON MESA Y PAN",
         category:  "06IDE_CLASSIC",
-        src:  "06IDE_CLASSIC/BODEGON_MESA_Y_PAN.png",
+        src:  "06IDE CLASSIC/BODEGON_MESA_Y_PAN.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
         price:  "Consultar"
