@@ -68,8 +68,12 @@ document.addEventListener('DOMContentLoaded', () => {
             categories.forEach(cat => {
                 // Find cover: check specific cover first, then fallback to first artwork
                 let coverImage = '';
-                if (typeof categoryCovers !== 'undefined' && categoryCovers[cat]) {
-                    coverImage = categoryCovers[cat];
+                if (typeof categoryCovers !== 'undefined') {
+                    coverImage = categoryCovers[cat] || categoryCovers[cat.replace(/ /g, '_')] || '';
+                }
+
+                if (coverImage) {
+                    // Found cover in map
                 } else {
                     const coverArt = artworkData.find(art => art.category === cat);
                     coverImage = coverArt ? coverArt.src : '';
