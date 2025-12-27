@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 15:57
+ * Generada automaticamente el 2025-12-27 16:17
  */
 
 // Mapa de Portadas por Estilo
@@ -37,13 +37,13 @@ const artworkData = [    {
     },
     {
         id:  "00edusse_la_vaca_solar_y_el_rio_de_signos_png",
-        title:  "La vaca solar y el rio de signos",
+        title:  "La_vaca_solar_y_el_rio_de_signos",
         category:  "00EDUSSE",
         src:  "00EDUSSE/La_vaca_solar_y_el_rio_de_signos.png",
-        description:  "Obra de la colección 00EDUSSE",
+        description:  "Composición: Estructura centralizada donde la figura bovina actúa como un tótem cósmico, conectando el plano rúnico del suelo con un gran disco solar segmentado en el fondo. Técnica: Estilo de mosaico fragmentado con pinceladas cortas y rítmicas. El cuerpo de la vaca funciona como un lienzo interno que contiene paisajes y astros integrados. Cromatismo: Contraste vibrante de tonos fríos (azules profundos y cerúleos) en la figura principal frente a una atmósfera de amarillos y ocres cálidos que emanan del centro solar. Simbolismo: Fusión de lo bucólico y lo místico; el río y las montañas adoptan formas geométricas, sugiriendo un orden universal sagrado y codificado.",
         size:  "Consultar",
         price:  "19,99",
-        tech_info: ""
+        tech_info: "Fotografía analógica restaurada digitalmente."
     },
     {
         id:  "01exp_neocirc_10___10hollywood_jpg",
