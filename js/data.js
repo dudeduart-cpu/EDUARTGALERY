@@ -1,6 +1,6 @@
 /**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 11:46
+ * Generada automaticamente el 2025-12-27 12:16
  */
 
 // Mapa de Portadas por Estilo
