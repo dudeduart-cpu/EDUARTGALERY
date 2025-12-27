@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 14:37
+ * Generada automaticamente el 2025-12-27 15:57
  */
 
 // Mapa de Portadas por Estilo
@@ -30,7 +30,7 @@ const artworkData = [    {
         title:  "El Guardián del Circuito Solar",
         category:  "00EDUSSE",
         src:  "00EDUSSE/El_guardian_del_circuito_solar.png",
-        description:  "Una obra inspirada en la luz del sur.",
+        description:  "Composición: Centralizada y simbólica; el perro actúa como eje entre un mandala terrestre (el circuito) y un halo solar celestial. Técnica: Fusión de mosaico geométrico y pincelada postimpresionista. La textura es vibrante, con trazos cortos que generan relieve y ritmo visual. Color: Uso intensivo de colores complementarios (dorados y naranjas frente a azules y violetas) para crear un contraste dramático y místico. Narrativa: Estética 'tectónica' donde la anatomía del animal se integra con patrones de circuitos y paisajes, eliminando la frontera entre lo orgánico y lo artificial.",
         size:  "100x100 cm",
         price:  "19,99",
         tech_info: "Pintura digital, 1024x1024px, 150dpi"
