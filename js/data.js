@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 14:04
+ * Generada automaticamente el 2025-12-27 14:17
  */
 
 // Mapa de Portadas por Estilo
@@ -32,7 +32,8 @@ const artworkData = [    {
         src:  "00EDUSSE/El_guardian_del_circuito_solar.png",
         description:  "Obra de la colección 00EDUSSE",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "00edusse_la_vaca_solar_y_el_rio_de_signos_png",
@@ -41,7 +42,8 @@ const artworkData = [    {
         src:  "00EDUSSE/La_vaca_solar_y_el_rio_de_signos.png",
         description:  "Obra de la colección 00EDUSSE",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_10___10hollywood_jpg",
@@ -50,7 +52,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/10_-_10HOLLYWOOD.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_11___11la_selva_africana_jpg",
@@ -59,7 +62,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/11_-_11la_selva_africana.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_12___12las_piramides_jpg",
@@ -68,7 +72,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/12_-_12LAS_PIRAMIDES.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_13___13luarca_jpg",
@@ -77,7 +82,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/13_-_13LUARCA.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_14___14nepal_jpg",
@@ -86,7 +92,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/14_-_14NEPAL.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_15___15peces_en_el_fondo_jpg",
@@ -95,7 +102,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/15_-_15PECES_EN_EL_FONDO.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_16___16pekin_jpg",
@@ -104,7 +112,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/16_-_16PEKIN.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_17___17new_york_estatua_jpg",
@@ -113,7 +122,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/17_-_17NEW_YORK_ESTATUA.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_18___18pueblo_en_la_costa_jpg",
@@ -122,7 +132,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/18_-_18PUEBLO_EN_LA_COSTA.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_19___19san_sebastian_jpg",
@@ -131,7 +142,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/19_-_19SAN_SEBASTIAN.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_1___01los_vigias_del_valle_solar_jpg",
@@ -140,7 +152,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/1_-_01Los_vigias_del_valle_solar.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_2___02el_sendero_de_los_globos_y_las_casas_de_piedra_jpg",
@@ -149,7 +162,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/2_-_02El_sendero_de_los_globos_y_las_casas_de_piedra.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_3___03mesa_de_los_vortices_png",
@@ -158,7 +172,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/3_-_03Mesa_de_los_vortices.png",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_4___04la_puerta_del_desierto_y_el_cielo_concentrico_png",
@@ -167,7 +182,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/4_-_04La_puerta_del_desierto_y_el_cielo_concentrico.png",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_5___05_bahia_de_faros_y_redes_doradas_png",
@@ -176,7 +192,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/5_-_05_Bahia_de_faros_y_redes_doradas.png",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_6___06montanas_de_fuego_y_espejo_otonal_png",
@@ -185,7 +202,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/6_-_06Montanas_de_fuego_y_espejo_otonal.png",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_7___07dos_rosas_exp_neocirc_png",
@@ -194,7 +212,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/7_-_07dos_rosas_EXP-NEOCIRC.png",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_8___08catedral_en_las_nubes_jpg",
@@ -203,7 +222,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/8_-_08CATEDRAL_EN_LAS_NUBES.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "01exp_neocirc_9___09guardia_vaticano_jpg",
@@ -212,7 +232,8 @@ const artworkData = [    {
         src:  "01EXP_NEOCIRC/9_-_09GUARDIA_VATICANO.jpg",
         description:  "Obra de la colección 01EXP_NEOCIRC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_1___atenea_plus_png",
@@ -221,7 +242,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/1_-_ATENEA-PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_2___barco_cubesse_plus_png",
@@ -230,7 +252,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/2_-_BARCO_CUBESSE_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_3___barco_plus1_png",
@@ -239,7 +262,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/3_-_BARCO_PLUS1.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_4___batalla_de_dioses_plus_png",
@@ -248,7 +272,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/4_-_BATALLA_DE_DIOSES_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_5___batalla_de_otros_dioses_plus_png",
@@ -257,7 +282,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/5_-_Batalla_de_otros_DIOSES_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_6___bodegon_1_plus_png",
@@ -266,7 +292,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/6_-_Bodegon_1_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_7___copilot_20251121_121713_png",
@@ -275,7 +302,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/7_-_Copilot_20251121_121713.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_8___poseidon_plus_png",
@@ -284,7 +312,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/8_-_Poseidon_PLUS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_9___toro_plus2_png",
@@ -293,7 +322,8 @@ const artworkData = [    {
         src:  "SAGA CUBESSEPLUS/9_-_TORO_PLUS2.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_10___colibri_2_jpeg",
@@ -302,7 +332,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/10_-_COLIBRI_2.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_11___mujer_cubesse_jpeg",
@@ -311,7 +342,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/11_-_MUJER_cubesse.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_12___osborn_toro_png",
@@ -320,7 +352,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/12_-_osborn_TORO.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_13___perro_mastin_en_cubesse_png",
@@ -329,7 +362,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/13_-_PERRO_MASTIN_EN_cubesse.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_14___reloj_pali_cubesse_2_png",
@@ -338,7 +372,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/14_-_RELOJ_PALI_cubesse_2.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_15___reloj_pali_cubesse_png",
@@ -347,7 +382,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/15_-_RELOJ_pali_CUBESSE.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_16___sunrise_cubesse_png",
@@ -356,7 +392,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/16_-_sunrise_CUBESSE.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_1___052_cubesse3_patos_png",
@@ -365,7 +402,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/1_-_052_cubesse3_PATOS.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_2___arbol_cobesse_jpeg",
@@ -374,7 +412,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/2_-_ARBOL_cobesse.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_3___barco_cubesse_jpeg",
@@ -383,7 +422,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/3_-_BARCO_cubesse.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_4___basilica_talavera_cubesse_jpeg",
@@ -392,7 +432,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/4_-_BASILICA_TALAVERA_cubesse.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_5___bodegon_1_color_png",
@@ -401,7 +442,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/5_-_bodegon_1_color.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_6___bodegon_comida1_png",
@@ -410,7 +452,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/6_-_bodegon_comida1.png",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_7___caballo1_cubesse_jpeg",
@@ -419,7 +462,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/7_-_CABALLO1_cubesse.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_8___caballo2_cubesse_jpeg",
@@ -428,7 +472,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/8_-_CABALLO2_cubesse.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "02cubesse_stilo_9___colibri_1_jpeg",
@@ -437,7 +482,8 @@ const artworkData = [    {
         src:  "02CUBESSE stilo/9_-_COLIBRI_1.jpeg",
         description:  "Obra de la colección 02CUBESSE stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_1___pesca_bajo_el_sol_andaluz_png",
@@ -446,7 +492,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/1_-_PESCA_BAJO_EL_SOL_ANDALUZ.png",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_2___barca_expneoplus_jpg",
@@ -455,7 +502,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/2_-_BARCA_EXPNEOPLUS.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_3___buda_en_expneoplus_png",
@@ -464,7 +512,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/3_-_Buda_en_EXPNEOPLUS.png",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_4___ciervo_ocaso_expneoplus_png",
@@ -473,7 +522,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/4_-_CIERVO_OCASO_EXPNEOPLUS.png",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_5___pagoda_china_en_expneoplus_png",
@@ -482,7 +532,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/5_-_Pagoda_china_en_EXPNEOPLUS.png",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_acantilados_de_irlanda_jpg",
@@ -491,7 +542,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/ACANTILADOS_DE_IRLANDA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_almeria_jpg",
@@ -500,7 +552,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/ALMERIA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_amsterdam_jpg",
@@ -509,7 +562,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/AMSTERDAM.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_bahia_futura_jpg",
@@ -518,7 +572,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/BAHIA_FUTURA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_basilea_jpg",
@@ -527,7 +582,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/BASILEA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_big_ben_jpg",
@@ -536,7 +592,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/BIG_BEN.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_canada_jpg",
@@ -545,7 +602,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/CANADA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_canmandu_jpg",
@@ -554,7 +612,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/CANMANDU.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_cataratas_del_niagara_jpg",
@@ -563,7 +622,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/CATARATAS_DEL_NIAGARA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_copa_sagrada_jpg",
@@ -572,7 +632,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/COPA_SAGRADA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_cruz_jpg",
@@ -581,7 +642,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/CRUZ.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_geisers_islandia_jpg",
@@ -590,7 +652,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/GEISERS_ISLANDIA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_hide_park_jpg",
@@ -599,7 +662,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/HIDE_PARK.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_holland_jpg",
@@ -608,7 +672,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/HOLLAND.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_kilimanjaro_jpg",
@@ -617,7 +682,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/KILIMANJARO.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_la_puerta_de_hercules_jpg",
@@ -626,7 +692,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/LA_PUERTA_DE_HERCULES.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_marrakesh_jpg",
@@ -635,7 +702,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/MARRAKESH.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_moscou_jpg",
@@ -644,7 +712,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/MOSCOU.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_munchen_jpg",
@@ -653,7 +722,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/MUNCHEN.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_new_york_jpg",
@@ -662,7 +732,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/NEW_YORK.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_new_york_edificio_jpg",
@@ -671,7 +742,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/NEW_YORK_EDIFICIO.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_oporto_jpg",
@@ -680,7 +752,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/OPORTO.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_petra_jpg",
@@ -689,7 +762,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/PETRA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_playas_de_jpg",
@@ -698,7 +772,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/PLAYAS_DE.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_pueblo_nordico_jpg",
@@ -707,7 +782,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/PUEBLO_NORDICO.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_puente_de_londres_jpg",
@@ -716,7 +792,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/PUENTE_DE_LONDRES.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_puert_jpg",
@@ -725,7 +802,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/PUERT.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_rio_congo_jpg",
@@ -734,7 +812,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/RIO_CONGO.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_sanlucar_jpg",
@@ -743,7 +822,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/SANLUCAR.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_s_sebastian_jpg",
@@ -752,7 +832,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/S_SEBASTIAN.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_torremolinos_jpg",
@@ -761,7 +842,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/TORREMOLINOS.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_torre_eifel_jpg",
@@ -770,7 +852,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/TORRE_EIFEL.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_venecia_jpg",
@@ -779,7 +862,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/VENECIA.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "03expneoplus_zurich_jpg",
@@ -788,7 +872,8 @@ const artworkData = [    {
         src:  "03EXPNEOPLUS/ZURICH.jpg",
         description:  "Obra de la colección 03EXPNEOPLUS",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "04aplicc_1___060_ciervo_png",
@@ -797,7 +882,8 @@ const artworkData = [    {
         src:  "04APLICC/1_-_060_CIERVO.png",
         description:  "Obra de la colección 04APLICC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "04aplicc_2___aguila_real_en_aplicc4__png",
@@ -806,7 +892,8 @@ const artworkData = [    {
         src:  "04APLICC/2_-_aguila_real_en_APLICC4_.png",
         description:  "Obra de la colección 04APLICC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "04aplicc_3___aguila_real_volando_en_aplicc4__png",
@@ -815,7 +902,8 @@ const artworkData = [    {
         src:  "04APLICC/3_-_aguila_real_volando_en_APLICC4_.png",
         description:  "Obra de la colección 04APLICC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "04aplicc_4___carcasone_aplicc4_png",
@@ -824,7 +912,8 @@ const artworkData = [    {
         src:  "04APLICC/4_-_CARCASONE_APLICC4.png",
         description:  "Obra de la colección 04APLICC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "04aplicc_5___castillo_fra1_en_aplicc4__png",
@@ -833,7 +922,8 @@ const artworkData = [    {
         src:  "04APLICC/5_-_Castillo_fra1_en_APLICC4_.png",
         description:  "Obra de la colección 04APLICC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "04aplicc_6___perro_mastin_en_plicc4_png",
@@ -842,7 +932,8 @@ const artworkData = [    {
         src:  "04APLICC/6_-_PERRO_MASTIN_EN_PLICC4.png",
         description:  "Obra de la colección 04APLICC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "05plumink_1___075_bodegon_tinta__png",
@@ -851,7 +942,8 @@ const artworkData = [    {
         src:  "05PLUMINK/1_-_075_BODEGON_TINTA_.png",
         description:  "Obra de la colección 05PLUMINK",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "05plumink_2___montana_plumink_png",
@@ -860,7 +952,8 @@ const artworkData = [    {
         src:  "05PLUMINK/2_-_MONTANA_PLUMINK.png",
         description:  "Obra de la colección 05PLUMINK",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "05plumink_3___toro_pluma_png",
@@ -869,7 +962,8 @@ const artworkData = [    {
         src:  "05PLUMINK/3_-_TORO_PLUMA.png",
         description:  "Obra de la colección 05PLUMINK",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "05plumink_4___toro_plumink_png",
@@ -878,7 +972,8 @@ const artworkData = [    {
         src:  "05PLUMINK/4_-_TORO_plumink.png",
         description:  "Obra de la colección 05PLUMINK",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "06ide_classic_1___01puerta_corral_ide_classic_png",
@@ -887,7 +982,8 @@ const artworkData = [    {
         src:  "06IDE CLASSIC/1_-_01puerta_corral_IDE_Classic.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "06ide_classic_2___02dos_rosas_en_ide_classic_png",
@@ -896,7 +992,8 @@ const artworkData = [    {
         src:  "06IDE CLASSIC/2_-_02dos_rosas_en_IDE_Classic.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "06ide_classic_3___toroide_classic_png",
@@ -905,7 +1002,8 @@ const artworkData = [    {
         src:  "06IDE CLASSIC/3_-_toroIDE_Classic.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "06ide_classic_bodegon_mesa_y_pan_png",
@@ -914,7 +1012,8 @@ const artworkData = [    {
         src:  "06IDE CLASSIC/BODEGON_MESA_Y_PAN.png",
         description:  "Obra de la colección 06IDE_CLASSIC",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_10___1763022514414_jpg",
@@ -923,7 +1022,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/10_-_1763022514414.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_11___1763022514438_jpg",
@@ -932,7 +1032,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/11_-_1763022514438.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_12___1763022514459_jpg",
@@ -941,7 +1042,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/12_-_1763022514459.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_13___casa_de_campo_rustic_jpg_png",
@@ -950,7 +1052,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/13_-_CASA_DE_CAMPO_RUSTIC.jpg.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_17___angel_azul_png",
@@ -959,7 +1062,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/17_-_ANGEL_AZUL.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_18___girl_angel_dorado_png",
@@ -968,7 +1072,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/18_-_GIRL_ANGEL_DORADO.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_19___house_camp_neo_jpg",
@@ -977,7 +1082,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/19_-_HOUSE_CAMP_neo.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_1___01rio_tajo_farola_png",
@@ -986,7 +1092,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/1_-_01RIO_TAJO_FAROLA.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_20___parroquia_de_campi_neo_png",
@@ -995,7 +1102,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/20_-_PARROQUIA_DE_CAMPI_neo.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_21___pueblo_futurista_1_png",
@@ -1004,7 +1112,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/21_-_PUEBLO_FUTURISTA_1.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_22___pueblo_futurista_1b_png",
@@ -1013,7 +1122,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/22_-_PUEBLO_FUTURISTA_1B.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_23___ruinas_griegas_png",
@@ -1022,7 +1132,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/23_-_RUINAS-GRIEGAS.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_24___sunrise_neoink_png",
@@ -1031,7 +1142,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/24_-_SUNRISE_NEOINK.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_25___talavera_1600_neo_jpg_png",
@@ -1040,7 +1152,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/25_-_TALAVERA_1600_NEO.jpg.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_26___templo_egipcio_png",
@@ -1049,7 +1162,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/26_-_TEMPLO_EGIPCIO.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_27___lago_poco_color_jpg",
@@ -1058,7 +1172,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/27_-_LAGO_POCO_COLOR.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_28___basilica_de_talavera_neoink_png",
@@ -1067,7 +1182,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/28_-_basilica_de_Talavera_NEOINK.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_29barco_pesquero_en_altamar_png",
@@ -1076,7 +1192,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/29BARCO_PESQUERO_EN_ALTAMAR.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_29barco_pesquero_en_altamar_menor_png",
@@ -1085,7 +1202,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/29BARCO_PESQUERO_EN_ALTAMAR_menor.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_2___bodegon_png",
@@ -1094,7 +1212,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/2_-_BODEGON.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_3___barcas_puerto_pesquero_png",
@@ -1103,7 +1222,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/3_-_BARCAS_PUERTO_PESQUERO.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_4___bodegon_vino1_jpg",
@@ -1112,7 +1232,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/4_-_BODEGON_VINO1.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_5___isla_en_el_aire_jpg",
@@ -1121,7 +1242,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/5_-_ISLA_EN_EL_AIRE.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_6___islas_en_el_aire_jpg",
@@ -1130,7 +1252,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/6_-_ISLAS_EN_EL_AIRE.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_8___1763022514378_jpg",
@@ -1139,7 +1262,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/8_-_1763022514378.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_atenas_jpg",
@@ -1148,7 +1272,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/ATENAS.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_buenos_aires_jpg",
@@ -1157,7 +1282,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/BUENOS_AIRES.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_canones_arizona_jpg",
@@ -1166,7 +1292,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/CANONES_ARIZONA.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_canones_en_colorado_jpg",
@@ -1175,7 +1302,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/CANONES_EN_COLORADO.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_carro_bueyes_fliomise_png",
@@ -1184,7 +1312,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/CARRO_BUEYES_FLIOMISE.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_carro_bueyes_fliomise_con_nina_png",
@@ -1193,7 +1322,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/CARRO_BUEYES_FLIOMISE_con_nina.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_cometa_en_neoink_png",
@@ -1202,7 +1332,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/COMETA_EN_NEOINK.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_flatiron_ny_jpg",
@@ -1211,7 +1342,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/FLATIRON_NY.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_sao_paulo_jpg",
@@ -1220,7 +1352,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/SAO_PAULO.jpg",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "07neoink_stilo_sunrise_neoink_png",
@@ -1229,7 +1362,8 @@ const artworkData = [    {
         src:  "07NEOINK stilo/SUNRISE_NEOINK.png",
         description:  "Obra de la colección 07NEOINK stilo",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "08boracarbon_abuelo_paseando_bajo_la_lluvia_png",
@@ -1238,7 +1372,8 @@ const artworkData = [    {
         src:  "08BORACARBON/ABUELO_PASEANDO_BAJO_LA_LLUVIA.png",
         description:  "Obra de la colección 08BORACARBON",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "08boracarbon_ninos_bosque_con_lluvia_png",
@@ -1247,7 +1382,8 @@ const artworkData = [    {
         src:  "08BORACARBON/NINOS_BOSQUE_CON_LLUVIA.png",
         description:  "Obra de la colección 08BORACARBON",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "08boracarbon_senora_sentada_en_la_puerta_de_su_casa_png",
@@ -1256,7 +1392,8 @@ const artworkData = [    {
         src:  "08BORACARBON/SENORA_SENTADA_EN_LA_PUERTA_DE_SU_CASA.png",
         description:  "Obra de la colección 08BORACARBON",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_abstracto_fractal_png",
@@ -1265,7 +1402,8 @@ const artworkData = [    {
         src:  "09FRACNEO/ABSTRACTO_FRACTAL.png",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_fracneo_cisne_png",
@@ -1274,7 +1412,8 @@ const artworkData = [    {
         src:  "09FRACNEO/FRACNEO_CISNE.png",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_fracneo_rana_png",
@@ -1283,7 +1422,8 @@ const artworkData = [    {
         src:  "09FRACNEO/FRACNEO_RANA.png",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_pueblo_de_la_costa_espanola_abstracto_jpeg",
@@ -1292,7 +1432,8 @@ const artworkData = [    {
         src:  "09FRACNEO/pueblo_de_la_costa_espanola_ABSTRACTO.jpeg",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_pueblo_de_la_costa_espanola_abstracto1_jpeg",
@@ -1301,7 +1442,8 @@ const artworkData = [    {
         src:  "09FRACNEO/pueblo_de_la_costa_espanola_ABSTRACTO1.jpeg",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_pueblo_de_la_costa_espanola_abstracto2_jpeg",
@@ -1310,7 +1452,8 @@ const artworkData = [    {
         src:  "09FRACNEO/pueblo_de_la_costa_espanola_ABSTRACTO2.jpeg",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_pueblo_de_la_costa_espanola_abstracto3_jpeg",
@@ -1319,7 +1462,8 @@ const artworkData = [    {
         src:  "09FRACNEO/pueblo_de_la_costa_espanola_ABSTRACTO3.jpeg",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "09fracneo_pueblo_de_la_costa_espanola_abstracto_plus_jpeg",
@@ -1328,7 +1472,8 @@ const artworkData = [    {
         src:  "09FRACNEO/pueblo_de_la_costa_espanola_ABSTRACTO_PLUS.jpeg",
         description:  "Obra de la colección 09FRACNEO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "cristal_cubico_bodegon_masa_y_pan_estilo_cristal_png",
@@ -1337,7 +1482,8 @@ const artworkData = [    {
         src:  "CRISTAL_CUBICO/BODEGON_MASA_Y_PAN_estilo_CRISTAL.png",
         description:  "Obra de la colección CRISTAL_CUBICO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     },
     {
         id:  "cristal_cubico_rascacielos_cristal_cubico_png",
@@ -1346,5 +1492,6 @@ const artworkData = [    {
         src:  "CRISTAL_CUBICO/rascacielos_CRISTAL_CUBICO.png",
         description:  "Obra de la colección CRISTAL_CUBICO",
         size:  "Consultar",
-        price:  "19,99"
+        price:  "19,99",
+        tech_info: ""
     }];
