@@ -1,10 +1,12 @@
 {
     "_INSTRUCCIONES": "Escribe aquí los datos de tus obras. El 'id' debe coincidir con el nombre del archivo (sin extensión).",
-    "ejemplo_obra_01": {
-        "title": "Atardecer Dorado",
-        "price": "150€",
+    "El_guardian_del_circuito_solar": {
+        "title": "El Guardián del Circuito Solar",
+        "price": "185€",
         "description": "Una obra inspirada en la luz del sur.",
-        "tech_info": "Óleo sobre lienzo digital, 4000x3000px, 300dpi."
+        "tech_info": "Pintura digital, 1024x1024px, 150dpi",
+        "size": "100x100 cm",
+        "catalogo": "Edusse"
     },
     "edu_CADILLAC_1982": {
         "title": "Eduardo en Cadillac",
