@@ -135,7 +135,7 @@ function createArtCard(art) {
     // Safe Price Check to avoid crash on null/undefined
     let priceDisplay = '';
     if (art.price && typeof art.price === 'string' && !isNaN(art.price.replace('.', '').replace(',', ''))) {
-        priceDisplay = art.price + ' €';
+        priceDisplay = art.price + ' &euro;';
     } else if (art.price && art.price !== 'Consultar') {
         // If it is 'Consultar' or other string
         priceDisplay = art.price;
