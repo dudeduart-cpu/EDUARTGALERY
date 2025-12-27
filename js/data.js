@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 16:30
+ * Generada automaticamente el 2025-12-27 16:45
  */
 
 // Mapa de Portadas por Estilo
@@ -41,7 +41,7 @@ const artworkData = [    {
         category:  "00EDUSSE",
         src:  "00EDUSSE/La_vaca_solar_y_el_rio_de_signos.png",
         description:  "Composición: Estructura centralizada donde la figura bovina actúa como un tótem cósmico, conectando el plano rúnico del suelo con un gran disco solar segmentado en el fondo. Técnica: Estilo de mosaico fragmentado con pinceladas cortas y rítmicas. El cuerpo de la vaca funciona como un lienzo interno que contiene paisajes y astros integrados. Cromatismo: Contraste vibrante de tonos fríos (azules profundos y cerúleos) en la figura principal frente a una atmósfera de amarillos y ocres cálidos que emanan del centro solar. Simbolismo: Fusión de lo bucólico y lo místico; el río y las montañas adoptan formas geométricas, sugiriendo un orden universal sagrado y codificado.",
-        size:  "Consultar",
+        size:  "100x100 cm",
         price:  "19,99",
         tech_info: "Pintura digital, 1024x1024px, 150dpi"
     },
@@ -150,10 +150,10 @@ const artworkData = [    {
         title:  "Los vigias del valle solar",
         category:  "01EXP_NEOCIRC",
         src:  "01EXP_NEOCIRC/1_-_01Los_vigias_del_valle_solar.jpg",
-        description:  "Obra de la colección 01EXP_NEOCIRC",
-        size:  "Consultar",
+        description:  "Composición: Estructura centralizada donde la figura bovina actúa como un tótem cósmico, conectando el plano rúnico del suelo con un gran disco solar segmentado en el fondo. Técnica: Estilo de mosaico fragmentado con pinceladas cortas y rítmicas. El cuerpo de la vaca funciona como un lienzo interno que contiene paisajes y astros integrados. Cromatismo: Contraste vibrante de tonos fríos (azules profundos y cerúleos) en la figura principal frente a una atmósfera de amarillos y ocres cálidos que emanan del centro solar. Simbolismo: Fusión de lo bucólico y lo místico; el río y las montañas adoptan formas geométricas, sugiriendo un orden universal sagrado y codificado.",
+        size:  "100x100 cm",
         price:  "19,99",
-        tech_info: ""
+        tech_info: "Pintura digital, 1024x1024px, 150dpi"
     },
     {
         id:  "01exp_neocirc_2___02el_sendero_de_los_globos_y_las_casas_de_piedra_jpg",
