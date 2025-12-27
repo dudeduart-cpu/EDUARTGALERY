@@ -1,6 +1,6 @@
 ﻿/**
  * BASE DE DATOS DE OBRAS
- * Generada automaticamente el 2025-12-27 16:22
+ * Generada automaticamente el 2025-12-27 16:30
  */
 
 // Mapa de Portadas por Estilo
@@ -43,7 +43,7 @@ const artworkData = [    {
         description:  "Composición: Estructura centralizada donde la figura bovina actúa como un tótem cósmico, conectando el plano rúnico del suelo con un gran disco solar segmentado en el fondo. Técnica: Estilo de mosaico fragmentado con pinceladas cortas y rítmicas. El cuerpo de la vaca funciona como un lienzo interno que contiene paisajes y astros integrados. Cromatismo: Contraste vibrante de tonos fríos (azules profundos y cerúleos) en la figura principal frente a una atmósfera de amarillos y ocres cálidos que emanan del centro solar. Simbolismo: Fusión de lo bucólico y lo místico; el río y las montañas adoptan formas geométricas, sugiriendo un orden universal sagrado y codificado.",
         size:  "Consultar",
         price:  "19,99",
-        tech_info: "Fotografía analógica restaurada digitalmente."
+        tech_info: "Pintura digital, 1024x1024px, 150dpi"
     },
     {
         id:  "01exp_neocirc_10___10hollywood_jpg",
