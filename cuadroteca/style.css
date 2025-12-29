@@ -1,0 +1,341 @@
+:root {
+    --spine-width: 40px;
+    --spine-height: 250px;
+    --book-depth: 250px;
+    --shelf-height: 300px;
+    --wood-color: #5d4037;
+    --wood-dark: #3e2723;
+    --wood-light: #8d6e63;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    /* Cursor de arrastrar por defecto */
+}
+
+body:active {
+    cursor: grabbing;
+}
+
+.library-container {
+    perspective: 2000px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Volvemos al centro, la matemática se encarga del resto */
+    /* Para movernos con el pan */
+    transition: transform 0.1s linear;
+    position: relative;
+    /* Referencia para offsets */
+}
+
+.scene {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+    transform: rotateX(5deg) scale(0.9);
+}
+
+.shelf-tower {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    transform-style: preserve-3d;
+}
+
+.shelf {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, var(--wood-dark), var(--wood-color));
+    padding: 0 40px;
+    transform-style: preserve-3d;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+    position: relative;
+    border-bottom: 20px solid var(--wood-dark);
+    width: 90vw;
+    /* Quitamos max-width para que sea infinito si es necesario, o muy ancho */
+    min-width: 1200px;
+    z-index: 10;
+    overflow: visible;
+    /* Aseguramos que las etiquetas sobresalgan */
+}
+
+.shelf-label {
+    position: absolute;
+    left: 40px;
+    top: -45px;
+    /* Encima del estante para que se vea bien */
+    background: linear-gradient(to bottom, #d4af37, #aa8c2c);
+    padding: 10px 30px;
+    color: #3e2723;
+    font-weight: 900;
+    font-size: 24px;
+    /* Más grande */
+    border: 3px solid #5d4037;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    transform: translateZ(50px);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 2px;
+    z-index: 200;
+    /* Z-index alto */
+    pointer-events: none;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+}
+
+.scene.flat-view {
+    /* "Aplanamos" la vista para que el cálculo 2D coincida con lo que ves */
+    transform: rotateX(0deg) scale(1);
+    transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.shelf::before {
+    content: '';
+    position: absolute;
+    top: -280px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: #0f0f0f;
+    transform: translateZ(-260px);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.8);
+}
+
+.book-wrapper {
+    width: var(--spine-width);
+    height: var(--spine-height);
+    margin: 0 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), margin 0.6s;
+    transform-origin: center center;
+}
+
+.spine {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: inset 2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 5px 0;
+    z-index: 2;
+}
+
+.spine.highlight {
+    background-color: #ffeb3b !important;
+    color: #000;
+    box-shadow: 0 0 15px #ffeb3b;
+}
+
+.spine:hover {
+    background-color: #555;
+    z-index: 100;
+}
+
+/* Portada */
+.cover {
+    position: absolute;
+    /* Ajustamos dimensiones para que no se deforme tanto */
+    /* La altura manda (spine-height), el ancho debe ser proporcional o fijo pero mayor */
+    width: 250px;
+    height: 100%;
+    background-color: #000;
+    transform-origin: left;
+    transform: rotateY(90deg);
+    left: 0;
+    /* Contain para ver la imagen completa sin recortar, o Cover si prefieres llenar */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background-color: #222;
+    /* Fondo por si la imagen no llena todo */
+    border: 4px solid #fff;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cover-info {
+    /* ESTILO GALERÍA: A la derecha, "Label" de museo */
+    position: absolute;
+    bottom: 20px;
+    /* Alineado abajo (o ajustar si quieres centrado) */
+    left: 100%;
+    /* Justo a la derecha del cuadro */
+    margin-left: 15px;
+    /* Espacio de separación */
+
+    /* FIX: scale(0.6) mantenido, pero origen izquierda-abajo */
+    transform: scale(0.6);
+    transform-origin: bottom left;
+
+    width: 250px;
+    /* Ancho suficiente para texto */
+    background: transparent;
+    color: #ccc;
+    padding: 0;
+
+    backface-visibility: visible;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+    font-family: 'Segoe UI', sans-serif;
+    text-align: left;
+    /* Alineación izquierda lectura natural */
+    pointer-events: none;
+}
+
+/* En modo héroe mostramos el info */
+.hero-book .cover-info {
+    opacity: 1;
+}
+
+.cover-info h3 {
+    margin: 0;
+    font-size: 10px;
+    /* Tamaño base pequeño -> x0.6 será muy pequeño */
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.cover-info p {
+    margin: 4px 0 0 0;
+    font-size: 10px;
+    color: #888;
+}
+
+.cover-info .price {
+    display: block;
+    margin-top: 2px;
+    font-size: 9px;
+    color: #666;
+}
+
+/* --- HERO OVERLAY (Fase 13) --- */
+#hero-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    /* FONDO NEGRO PURO para resaltar la obra */
+    background-color: #000;
+
+    z-index: 5000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+#hero-overlay.active {
+    pointer-events: all;
+    opacity: 1;
+    cursor: zoom-out;
+    /* Clic para cerrar */
+}
+
+.hero-book {
+    position: absolute;
+    /* Se moverá con top/left/transform */
+    transform-style: preserve-3d;
+    transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+}
+
+/* FIX: Regla para mostrar la portada FRONTALMENTE en modo héroe */
+.hero-book .cover {
+    transform: rotateY(0deg) !important;
+    /* Forzar vista frontal */
+    border: none;
+    background-color: transparent;
+
+    /* CRÍTICO: Llenar el contenedor para aprovechar el redimensionado real JS */
+    width: 100% !important;
+    height: 100% !important;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    image-rendering: -webkit-optimize-contrast;
+    opacity: 1 !important;
+}
+
+.hero-book .spine {
+    display: none;
+}
+
+/* Ajuste: .book-wrapper.active ya no hace nada 3D en la librería, solo se oculta */
+.book-wrapper.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* --- CONTROLES Y BUSQUEDA --- */
+.controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    display: flex;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    font-family: inherit;
+}
+
+button {
+    padding: 10px 20px;
+    background: #e6b800;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #ffcc00;
+}

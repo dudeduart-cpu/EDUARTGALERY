@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Cuadros 3D</title>
+    <link rel="stylesheet" href="style.css?v=100">
+    <!-- Importamos los datos de la web principal -->
+    <script src="../js/data.js"></script>
+</head>
+
+<body>
+
+    <div class="library-container">
+        <div class="scene">
+            <div id="shelf-container" class="shelf-tower">
+                <!-- Las estanterías se generarán aquí con JS -->
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="search-input" placeholder="Buscar cuadro..." autocomplete="off">
+        <button id="reset-view-btn">Vista General</button>
+    </div>
+
+    <div id="hero-overlay"></div>
+    <script src="script.js?v=100"></script>
+</body>
+
+</html>
