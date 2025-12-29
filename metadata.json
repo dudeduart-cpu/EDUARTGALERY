@@ -2,16 +2,278 @@
     "_INSTRUCCIONES": "Escribe aquí los datos de tus obras. El 'id' debe coincidir con el nombre del archivo (sin extensión).",
     "El_guardian_del_circuito_solar": {
         "title": "El Guardián del Circuito Solar",
-        "price": "185€",
-        "description": "Una obra inspirada en la luz del sur.",
+        "description": "Composición: Centralizada y simbólica; el perro actúa como eje entre un mandala terrestre (el circuito) y un halo solar celestial. Técnica: Fusión de mosaico geométrico y pincelada postimpresionista. La textura es vibrante, con trazos cortos que generan relieve y ritmo visual. Color: Uso intensivo de colores complementarios (dorados y naranjas frente a azules y violetas) para crear un contraste dramático y místico. Narrativa: Estética 'tectónica' donde la anatomía del animal se integra con patrones de circuitos y paisajes, eliminando la frontera entre lo orgánico y lo artificial.",
         "tech_info": "Pintura digital, 1024x1024px, 150dpi",
         "size": "100x100 cm",
         "catalogo": "Edusse"
     },
-    "edu_CADILLAC_1982": {
-        "title": "Eduardo en Cadillac",
-        "price": "No a la venta",
-        "description": "Recuerdo histórico del grupo.",
-        "tech_info": "Fotografía analógica restaurada digitalmente."
+    "La_vaca_solar_y_el_rio_de_signos": {
+        "title": "La vaca solar y el rio de signos",
+        "price": "19,99",
+        "description": "Composición: Estructura centralizada donde la figura bovina actúa como un tótem cósmico, conectando el plano rúnico del suelo con un gran disco solar segmentado en el fondo. Técnica: Estilo de mosaico fragmentado con pinceladas cortas y rítmicas. El cuerpo de la vaca funciona como un lienzo interno que contiene paisajes y astros integrados. Cromatismo: Contraste vibrante de tonos fríos (azules profundos y cerúleos) en la figura principal frente a una atmósfera de amarillos y ocres cálidos que emanan del centro solar. Simbolismo: Fusión de lo bucólico y lo místico; el río y las montañas adoptan formas geométricas, sugiriendo un orden universal sagrado y codificado.",
+        "tech_info": "Pintura digital, 1024x1024px, 150dpi",
+        "size": "100x100 cm",
+        "catalogo": "Edusse"
+    },
+    "1_-_01Los_vigias_del_valle_solar": {
+        "title": "Los vigias del valle solar",
+        "price": "22,99",
+        "description": "Técnica: Se caracteriza por un impasto extremo y gestual realizado con espátula, donde la pintura adquiere un relieve físico casi escultórico. Composición: Estructura de perspectiva épica que sitúa a dos figuras clásicas en un primer plano detallado, guiando la mirada hacia una ciudad antigua y una montaña bajo un cielo expansivo. Cromatismo: Paleta de tonos pastel y colores tierra (ocres, violetas y azules suaves) que convergen en un foco lumínico central de alta intensidad. Dinámica Visual: El cielo está configurado como un vórtice circular de pinceladas gruesas que irradia energía, creando una atmósfera de movimiento constante sobre el paisaje estático.",
+        "tech_info": "Pintura digital, 1024x1024px, 150dpi",
+        "size": "100x100 cm",
+        "catalogo": "ExpNeocirc"
+    },
+    "11_-_11la_selva_africana": {
+        "title": "La selva africana CONGO"
+    },
+    "1_-_052_cubesse3_PATOS": {
+        "title": "ESTANQUE DE PATOS TALAVERA"
+    },
+    "2_-_ARBOL_cobesse": {
+        "title": "ARBOL NARANJO"
+    },
+    "3_-_BARCO_cubesse": {
+        "title": "BARCO trigonometrico"
+    },
+    "4_-_BASILICA_TALAVERA_cubesse": {
+        "title": "BASILICA_TALAVERA"
+    },
+    "5_-_bodegon_1_color": {
+        "title": "Bodegon ceramico"
+    },
+    "6_-_bodegon_comida1": {
+        "title": "Bodegon_clasico"
+    },
+    "7_-_CABALLO1_cubesse": {
+        "title": "CABALLO al viento"
+    },
+    "8_-_CABALLO2_cubesse": {
+        "title": "Un caballo_VELOZ"
+    },
+    "9_-_COLIBRI_1": {
+        "title": "COLIBRI_RED"
+    },
+    "10_-_COLIBRI_2": {
+        "title": "Flotando_como_un_Colibri"
+    },
+    "11_-_MUJER_cubesse": {
+        "title": "MUJER SENTADA"
+    },
+    "12_-_osborn_TORO": {
+        "title": "TORO EN LA ESTEPA"
+    },
+    "13_-_PERRO_MASTIN_EN_cubesse": {
+        "title": "PERRO_MASTIN"
+    },
+    "14_-_RELOJ_PALI_cubesse_2": {
+        "title": "RELOJ_PALI"
+    },
+    "15_-_RELOJ_pali_CUBESSE": {
+        "title": "RELOJ_de_cocina"
+    },
+    "16_-_sunrise_CUBESSE": {
+        "title": "SUNRISE_ VALLEY"
+    },
+    "1_-_ATENEA-PLUS": {
+        "title": "ATENEA"
+    },
+    "2_-_BARCO_CUBESSE_PLUS": {
+        "title": "BARCO CUBESSE"
+    },
+    "3_-_BARCO_PLUS1": {
+        "title": "BARCO 1"
+    },
+    "4_-_BATALLA_DE_DIOSES_PLUS": {
+        "title": "BATALLA DE DIOSES"
+    },
+    "5_-_Batalla_de_otros_DIOSES_PLUS": {
+        "title": "Batalla de otros DIOSES"
+    },
+    "6_-_Bodegon_1_PLUS": {
+        "title": "Bodegon 1"
+    },
+    "7_-_Copilot_20251121_121713": {
+        "title": "EL TORO"
+    },
+    "8_-_Poseidon_PLUS": {
+        "title": "Poseidon"
+    },
+    "9_-_TORO_PLUS2": {
+        "title": "TORO 2"
+    },
+    "2_-_BARCA_EXPNEOPLUS": {
+        "title": "BARCA"
+    },
+    "3_-_Buda_en_EXPNEOPLUS": {
+        "title": "Buda"
+    },
+    "4_-_CIERVO_OCASO_EXPNEOPLUS": {
+        "title": "CIERVO OCASO"
+    },
+    "5_-_Pagoda_china_en_EXPNEOPLUS": {
+        "title": "Pagoda china"
+    },
+    "1_-_PESCA_BAJO_EL_SOL_ANDALUZ": {
+        "title": "PESCA BAJO EL SOL ANDALUZ"
+    },
+    "NEW_YORK_EDIFICIO": {
+        "title": "NEW_YORK_flatiron"
+    },
+    "PUERT": {
+        "title": "PUERTO EN MARSELLA"
+    },
+    "1_-_060_CIERVO": {
+        "title": "EL CIERVO REY"
+    },
+    "2_-_aguila_real_en_APLICC4_": {
+        "title": "Aguila real"
+    },
+    "3_-_aguila_real_volando_en_APLICC4_": {
+        "title": "Aguila real volando"
+    },
+    "4_-_CARCASONE_APLICC4": {
+        "title": "CARCASONE"
+    },
+    "5_-_Castillo_fra1_en_APLICC4_": {
+        "title": "Castillo fra1"
+    },
+    "6_-_PERRO_MASTIN_EN_PLICC4": {
+        "title": "MAS MASTIN"
+    },
+    "1_-_075_BODEGON_TINTA_": {
+        "title": "UN BODEGON_TINTA"
+    },
+    "2_-_MONTANA_PLUMINK": {
+        "title": "MONTANA"
+    },
+    "3_-_TORO_PLUMA": {
+        "title": "TORO BRAVO"
+    },
+    "4_-_TORO_plumink": {
+        "title": "Cuando_camina_la_raza"
+    },
+    "1_-_01puerta_corral_IDE_Classic": {
+        "title": "Puerta Corral"
+    },
+    "2_-_02dos_rosas_en_IDE_Classic": {
+        "title": "Dos Rosas"
+    },
+    "3_-_toroIDE_Classic": {
+        "title": "Toro"
+    },
+    "BODEGON_MESA_Y_PAN": {
+        "title": "Bodegon Mesa Y Pan"
+    },
+    "1_-_01RIO_TAJO_FAROLA": {
+        "title": "Rio Tajo Farola",
+        "sold": true
+    },
+    "2_-_BODEGON": {
+        "title": "Bodegon"
+    },
+    "3_-_BARCAS_PUERTO_PESQUERO": {
+        "title": "Barcas Puerto Pesquero"
+    },
+    "4_-_BODEGON_VINO1": {
+        "title": "Bodegon Vino1"
+    },
+    "5_-_ISLA_EN_EL_AIRE": {
+        "title": "Isla En El Aire"
+    },
+    "6_-_ISLAS_EN_EL_AIRE": {
+        "title": "Islas En El Aire"
+    },
+    "13_-_CASA_DE_CAMPO_RUSTIC.jpg": {
+        "title": "Casa De Campo Rustic"
+    },
+    "17_-_ANGEL_AZUL": {
+        "title": "Angel Azul"
+    },
+    "18_-_GIRL_ANGEL_DORADO": {
+        "title": "Girl Angel Dorado"
+    },
+    "19_-_HOUSE_CAMP_neo": {
+        "title": "House Camp"
+    },
+    "20_-_PARROQUIA_DE_CAMPI_neo": {
+        "title": "Parroquia De Campi"
+    },
+    "21_-_PUEBLO_FUTURISTA_1": {
+        "title": "Pueblo Futurista 1"
+    },
+    "22_-_PUEBLO_FUTURISTA_1B": {
+        "title": "Pueblo Futurista 1b"
+    },
+    "23_-_RUINAS-GRIEGAS": {
+        "title": "Ruinas Griegas"
+    },
+    "24_-_SUNRISE_NEOINK": {
+        "title": "Sunrise"
+    },
+    "25_-_TALAVERA_1600_NEO.jpg": {
+        "title": "Talavera 1600"
+    },
+    "26_-_TEMPLO_EGIPCIO": {
+        "title": "Templo Egipcio"
+    },
+    "27_-_LAGO_POCO_COLOR": {
+        "title": "Lago Poco Color"
+    },
+    "28_-_basilica_de_Talavera_NEOINK": {
+        "title": "Basilica De Talavera"
+    },
+    "29BARCO_PESQUERO_EN_ALTAMAR": {
+        "title": "Barco Pesquero En Altamar"
+    },
+    "29BARCO_PESQUERO_EN_ALTAMAR_menor": {
+        "title": "Barco Pesquero En Altamar Menor"
+    },
+    "COMETA_EN_NEOINK": {
+        "title": "Cometa"
+    },
+    "SUNRISE_NEOINK": {
+        "title": "Sunrise"
+    },
+    "8_-_1763022514378": {
+        "title": "EN_UN_MAR_DE_CIELO"
+    },
+    "10_-_1763022514414": {
+        "title": "AROS_ DE_CASCADAS"
+    },
+    "11_-_1763022514438": {
+        "title": "RIO_JUNTO_AL_SOL"
+    },
+    "12_-_1763022514459": {
+        "title": "TERRENOS_ALEJADOS"
+    },
+    "ABSTRACTO_FRACTAL": {
+        "title": "Abstracto Fractal"
+    },
+    "FRACNEO_CISNE": {
+        "title": "Cisne"
+    },
+    "FRACNEO_RANA": {
+        "title": "Rana"
+    },
+    "pueblo_de_la_costa_espanola_ABSTRACTO": {
+        "title": "PUEBLO_DE_LA_COSTA_IN_BLUE"
+    },
+    "pueblo_de_la_costa_espanola_ABSTRACTO1": {
+        "title": "ABS green"
+    },
+    "pueblo_de_la_costa_espanola_ABSTRACTO2": {
+        "title": "ABS blue"
+    },
+    "pueblo_de_la_costa_espanola_ABSTRACTO3": {
+        "title": "Pueblo_on_the_MOON"
+    },
+    "pueblo_de_la_costa_espanola_ABSTRACTO_PLUS": {
+        "title": "En_un_pueblo_de_la_costa_espanola"
+    },
+    "BODEGON_MASA_Y_PAN_estilo_CRISTAL": {
+        "title": "Bodegon Masa Y Pan"
+    },
+    "rascacielos_CRISTAL_CUBICO": {
+        "title": "Rascacielos"
     }
 }
