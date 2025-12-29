@@ -233,6 +233,25 @@ body {
     height: 150px;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.sold-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #D4AF37;
+    /* Dorado */
+    color: #000;
+    padding: 2px 8px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    pointer-events: none;
 }
 
 .card-info {
