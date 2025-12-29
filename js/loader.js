@@ -146,8 +146,13 @@ function createArtCard(art) {
     // Ideally, we replicate strict CSS url() syntax.
     const safeUrl = encodeURI(art.src).replace(/'/g, "%27");
 
+    // VENDIDO BADGE LOGIC
+    const soldBadge = art.sold ? '<div class="sold-badge">VENDIDO</div>' : '';
+
     el.innerHTML = `
-        <div class="card-image" style="background-image: url('${safeUrl}'); background-color: ${art.placeholderColor || '#ccc'};"></div>
+        <div class="card-image" style="background-image: url('${safeUrl}'); background-color: ${art.placeholderColor || '#ccc'};">
+            ${soldBadge}
+        </div>
         <div class="card-info">
             <h3>${art.title || 'Sin Título'}</h3>
             <p title="${art.description || ''}">${art.description || ''}</p>
