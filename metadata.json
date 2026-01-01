@@ -23,107 +23,126 @@
         "size": "100x100 cm",
         "catalogo": "ExpNeocirc"
     },
+    "SENORA_SENTADA_EN_LA_PUERTA_DE_SU_CASA": {
+        "title": "Señora sentada en la puerta de su casa"
+    },
+    "NINOS_BOSQUE_CON_LLUVIA": {
+        "title": "Niños bosque con lluvia"
+    },
+    "Puerta_corral": {
+        "title": "Puerta en la pradera"
+    },
     "11_-_11la_selva_africana": {
-        "title": "La selva africana CONGO"
+        "title": "La selva africana congo"
     },
     "1_-_052_cubesse3_PATOS": {
-        "title": "ESTANQUE DE PATOS TALAVERA"
+        "title": "Estanque de patos talavera"
     },
     "2_-_ARBOL_cobesse": {
-        "title": "ARBOL NARANJO"
+        "title": "Arbol naranjo"
     },
     "3_-_BARCO_cubesse": {
-        "title": "BARCO trigonometrico"
+        "title": "Barco trigonometrico"
     },
     "4_-_BASILICA_TALAVERA_cubesse": {
-        "title": "BASILICA_TALAVERA"
+        "title": "Basilica talavera"
     },
     "5_-_bodegon_1_color": {
         "title": "Bodegon ceramico"
     },
     "6_-_bodegon_comida1": {
-        "title": "Bodegon_clasico"
+        "title": "Bodegon clasico"
     },
     "7_-_CABALLO1_cubesse": {
-        "title": "CABALLO al viento"
+        "title": "Caballo al viento"
     },
     "8_-_CABALLO2_cubesse": {
-        "title": "Un caballo_VELOZ"
+        "title": "Un caballo veloz"
     },
     "9_-_COLIBRI_1": {
-        "title": "COLIBRI_RED"
+        "title": "Colibri red"
     },
     "10_-_COLIBRI_2": {
-        "title": "Flotando_como_un_Colibri"
+        "title": "Flotando como un colibri"
     },
     "11_-_MUJER_cubesse": {
-        "title": "MUJER SENTADA"
+        "title": "Mujer sentada"
     },
     "12_-_osborn_TORO": {
-        "title": "TORO EN LA ESTEPA"
+        "title": "Toro en la estepa"
     },
     "13_-_PERRO_MASTIN_EN_cubesse": {
-        "title": "PERRO_MASTIN"
+        "title": "Perro mastin"
     },
     "14_-_RELOJ_PALI_cubesse_2": {
-        "title": "RELOJ_PALI"
+        "title": "Reloj pali"
     },
     "15_-_RELOJ_pali_CUBESSE": {
-        "title": "RELOJ_de_cocina"
+        "title": "Reloj de cocina"
     },
     "16_-_sunrise_CUBESSE": {
-        "title": "SUNRISE_ VALLEY"
+        "title": "Sunrise valley"
+    },
+    "Guerrera_de_la_Amazonia": {
+        "title": "Guerrera de la amazonia",
+        "price": "19,99",
+        "description": "Estilo pictórico digital que fusiona la estructura geométrica del cubismo con la pincelada gruesa, gestual y expresiva del óleo. Las formas se construyen con polígonos angulares, pero la textura y el color se aplican con intensidad pictórica, generando una vibración visual que combina orden y emoción. Base formal: Geometría cubista. Tratamiento pictórico: Pincelada gruesa tipo óleo. Paleta: Rojos, naranjas, azules, verdes, púrpuras. Temática: Figuras simbólicas. Sensación: Fuerza, energía, presencia."
+    },
+    "REGATA": {
+        "title": "Regata",
+        "price": "19,99",
+        "description": "URBANSPHERIC es un estilo visual atmosférico que se caracteriza por la representación de escenas suspendidas en silencio emocional. Aunque su origen está en lo urbano, el estilo no depende del motivo, sino de la atmósfera: niebla, nieve, luz difusa, y pincelada envolvente. Es un lenguaje pictórico que transmite introspección, distancia y contemplación. Características: Paleta fría/desaturada, pincelada suelta y envolvente, luz difusa desde la niebla. Sensación: Pausa, contemplación, melancolía."
     },
     "1_-_ATENEA-PLUS": {
-        "title": "ATENEA"
+        "title": "Atenea"
     },
     "2_-_BARCO_CUBESSE_PLUS": {
-        "title": "BARCO CUBESSE"
+        "title": "Barco cubesse"
     },
     "3_-_BARCO_PLUS1": {
-        "title": "BARCO 1"
+        "title": "Barco 1"
     },
     "4_-_BATALLA_DE_DIOSES_PLUS": {
-        "title": "BATALLA DE DIOSES"
+        "title": "Batalla de dioses"
     },
     "5_-_Batalla_de_otros_DIOSES_PLUS": {
-        "title": "Batalla de otros DIOSES"
+        "title": "Batalla de otros dioses"
     },
     "6_-_Bodegon_1_PLUS": {
         "title": "Bodegon 1"
     },
     "7_-_Copilot_20251121_121713": {
-        "title": "EL TORO"
+        "title": "El toro"
     },
     "8_-_Poseidon_PLUS": {
         "title": "Poseidon"
     },
     "9_-_TORO_PLUS2": {
-        "title": "TORO 2"
+        "title": "Toro 2"
     },
     "2_-_BARCA_EXPNEOPLUS": {
-        "title": "BARCA"
+        "title": "Barca"
     },
     "3_-_Buda_en_EXPNEOPLUS": {
         "title": "Buda"
     },
     "4_-_CIERVO_OCASO_EXPNEOPLUS": {
-        "title": "CIERVO OCASO"
+        "title": "Ciervo ocaso"
     },
     "5_-_Pagoda_china_en_EXPNEOPLUS": {
         "title": "Pagoda china"
     },
     "1_-_PESCA_BAJO_EL_SOL_ANDALUZ": {
-        "title": "PESCA BAJO EL SOL ANDALUZ"
+        "title": "Pesca bajo el sol andaluz"
     },
     "NEW_YORK_EDIFICIO": {
-        "title": "NEW_YORK_flatiron"
+        "title": "New york flatiron"
     },
     "PUERT": {
-        "title": "PUERTO EN MARSELLA"
+        "title": "Puerto en marsella"
     },
     "1_-_060_CIERVO": {
-        "title": "EL CIERVO REY"
+        "title": "El ciervo rey"
     },
     "2_-_aguila_real_en_APLICC4_": {
         "title": "Aguila real"
@@ -132,101 +151,98 @@
         "title": "Aguila real volando"
     },
     "4_-_CARCASONE_APLICC4": {
-        "title": "CARCASONE"
+        "title": "Carcasone"
     },
     "5_-_Castillo_fra1_en_APLICC4_": {
         "title": "Castillo fra1"
     },
     "6_-_PERRO_MASTIN_EN_PLICC4": {
-        "title": "MAS MASTIN"
+        "title": "Mas mastin"
     },
     "1_-_075_BODEGON_TINTA_": {
-        "title": "UN BODEGON_TINTA"
-    },
-    "2_-_MONTANA_PLUMINK": {
-        "title": "MONTANA"
+        "title": "Un bodegon tinta"
     },
     "3_-_TORO_PLUMA": {
-        "title": "TORO BRAVO"
+        "title": "Toro bravo"
     },
     "4_-_TORO_plumink": {
-        "title": "Cuando_camina_la_raza"
+        "title": "Cuando camina la raza"
     },
     "1_-_01puerta_corral_IDE_Classic": {
-        "title": "Puerta Corral"
+        "title": "Puerta corral"
     },
     "2_-_02dos_rosas_en_IDE_Classic": {
-        "title": "Dos Rosas"
+        "title": "Dos rosas"
     },
     "3_-_toroIDE_Classic": {
         "title": "Toro"
     },
     "BODEGON_MESA_Y_PAN": {
-        "title": "Bodegon Mesa Y Pan"
+        "title": "Bodegon mesa y pan"
     },
     "1_-_01RIO_TAJO_FAROLA": {
-        "title": "Rio Tajo Farola",
+        "title": "Rio tajo farola",
         "sold": true
     },
     "2_-_BODEGON": {
         "title": "Bodegon"
     },
     "3_-_BARCAS_PUERTO_PESQUERO": {
-        "title": "Barcas Puerto Pesquero"
+        "title": "Barcas puerto pesquero"
     },
     "4_-_BODEGON_VINO1": {
-        "title": "Bodegon Vino1"
+        "title": "Bodegon vino1"
     },
     "5_-_ISLA_EN_EL_AIRE": {
-        "title": "Isla En El Aire"
+        "title": "Isla en el aire"
     },
     "6_-_ISLAS_EN_EL_AIRE": {
-        "title": "Islas En El Aire"
+        "title": "Islas en el aire"
     },
-    "13_-_CASA_DE_CAMPO_RUSTIC.jpg": {
-        "title": "Casa De Campo Rustic"
+    "13_-_CASA_DE_CAMPO_RUSTIC": {
+        "title": "Casa de campo rustic"
     },
     "17_-_ANGEL_AZUL": {
-        "title": "Angel Azul"
+        "title": "Angel azul"
     },
     "18_-_GIRL_ANGEL_DORADO": {
-        "title": "Girl Angel Dorado"
+        "title": "Girl angel dorado"
     },
     "19_-_HOUSE_CAMP_neo": {
-        "title": "House Camp"
+        "title": "House camp"
     },
     "20_-_PARROQUIA_DE_CAMPI_neo": {
-        "title": "Parroquia De Campi"
+        "title": "Parroquia de campi"
     },
     "21_-_PUEBLO_FUTURISTA_1": {
-        "title": "Pueblo Futurista 1"
+        "title": "Pueblo futurista 1"
     },
     "22_-_PUEBLO_FUTURISTA_1B": {
-        "title": "Pueblo Futurista 1b"
+        "title": "Pueblo futurista 1b"
     },
     "23_-_RUINAS-GRIEGAS": {
-        "title": "Ruinas Griegas"
+        "title": "Ruinas griegas"
     },
     "24_-_SUNRISE_NEOINK": {
         "title": "Sunrise"
     },
-    "25_-_TALAVERA_1600_NEO.jpg": {
+    "25_-_TALAVERA_1600_NEO": {
         "title": "Talavera 1600"
     },
     "26_-_TEMPLO_EGIPCIO": {
-        "title": "Templo Egipcio"
+        "title": "Templo egipcio"
     },
     "27_-_LAGO_POCO_COLOR": {
-        "title": "Lago Poco Color"
+        "title": "Lago poco color"
     },
     "28_-_basilica_de_Talavera_NEOINK": {
-        "title": "Basilica De Talavera"
+        "title": "Basilica de talavera"
     },
     "29BARCO_PESQUERO_EN_ALTAMAR": {
-        "title": "Barco Pesquero En Altamar"
+        "title": "Barco pesquero en altamar"
     },
     "29BARCO_PESQUERO_EN_ALTAMAR_menor": {
-        "title": "Barco Pesquero En Altamar Menor"
+        "title": "Barco pesquero en altamar menor"
     },
     "COMETA_EN_NEOINK": {
         "title": "Cometa"
@@ -235,19 +251,31 @@
         "title": "Sunrise"
     },
     "8_-_1763022514378": {
-        "title": "EN_UN_MAR_DE_CIELO"
+        "title": "En un mar de cielo"
     },
     "10_-_1763022514414": {
-        "title": "AROS_ DE_CASCADAS"
+        "title": "Aros de cascadas"
     },
     "11_-_1763022514438": {
-        "title": "RIO_JUNTO_AL_SOL"
+        "title": "Rio junto al sol"
     },
     "12_-_1763022514459": {
-        "title": "TERRENOS_ALEJADOS"
+        "title": "Terrenos alejados"
+    },
+    "CANONES_ARIZONA": {
+        "title": "Cañones de arizona"
+    },
+    "CANONES_EN_COLORADO": {
+        "title": "Cañones en colorado"
+    },
+    "2_-_MONTANA_PLUMINK": {
+        "title": "Montaña"
+    },
+    "6_-_06Montanas_de_fuego_y_espejo_otonal": {
+        "title": "Montañas de fuego y espejo otoñal"
     },
     "ABSTRACTO_FRACTAL": {
-        "title": "Abstracto Fractal"
+        "title": "Abstracto fractal"
     },
     "FRACNEO_CISNE": {
         "title": "Cisne"
@@ -256,24 +284,87 @@
         "title": "Rana"
     },
     "pueblo_de_la_costa_espanola_ABSTRACTO": {
-        "title": "PUEBLO_DE_LA_COSTA_IN_BLUE"
+        "title": "Pueblo de la costa in blue"
     },
     "pueblo_de_la_costa_espanola_ABSTRACTO1": {
-        "title": "ABS green"
+        "title": "Abs green"
     },
     "pueblo_de_la_costa_espanola_ABSTRACTO2": {
-        "title": "ABS blue"
+        "title": "Abs blue"
     },
     "pueblo_de_la_costa_espanola_ABSTRACTO3": {
-        "title": "Pueblo_on_the_MOON"
+        "title": "Pueblo on the moon"
     },
     "pueblo_de_la_costa_espanola_ABSTRACTO_PLUS": {
-        "title": "En_un_pueblo_de_la_costa_espanola"
-    },
-    "BODEGON_MASA_Y_PAN_estilo_CRISTAL": {
-        "title": "Bodegon Masa Y Pan"
+        "title": "En un pueblo de la costa espanola"
     },
     "rascacielos_CRISTAL_CUBICO": {
         "title": "Rascacielos"
+    },
+    "Grulla_y_dragon": {
+        "title": "Grulla y dragón"
+    },
+    "Bufalo_al_atardecer": {
+        "title": "Búfalo al atardecer"
+    },
+    "Siang_pong_arrozal": {
+        "title": "Siang pong arrozal"
+    },
+    "Barco_Vapor_Mountain_river": {
+        "title": "Barco Vapor Mountain river"
+    },
+    "Mejico_town": {
+        "title": "Méjico town"
+    },
+    "En_el_pueblo_Borassie_minimal": {
+        "title": "En el pueblo Borassie minimal"
+    },
+    "The_cat_dreams": {
+        "title": "The cat dreams"
+    },
+    "In_Brodway": {
+        "title": "In Brodway"
+    },
+    "Cocodrilo_en_luna_roja": {
+        "title": "Cocodrilo en luna roja"
+    },
+    "Competicion_de_Skateboard": {
+        "title": "Competición de Skateboard"
+    },
+    "En_el_Ganges": {
+        "title": "En el Ganges"
+    },
+    "Vietnam_woods": {
+        "title": "Vietnam woods"
+    },
+    "Gran_bullicio_en_NY": {
+        "title": "Gran bullicio en NY"
+    },
+    "Taxis_en_invierno_NY": {
+        "title": "Taxis en invierno NY"
+    },
+    "Tu_y_yo_por_la_avenida_en_NY": {
+        "title": "Tú y yo por la avenida en NY"
+    },
+    "En_el_mercado": {
+        "title": "En el mercado"
+    },
+    "Noche_en_la_ciudad": {
+        "title": "Noche en la ciudad"
+    },
+    "Olas_y_rokas": {
+        "title": "Olas y rokas"
+    },
+    "Rompiendo_las_olas_on_the_rocks": {
+        "title": "Rompiendo las olas on the rocks"
+    },
+    "Caminando_calle_arriba": {
+        "title": "Caminando calle arriba"
+    },
+    "Ciberpunk_City": {
+        "title": "Ciberpunk City"
+    },
+    "Night_by": {
+        "title": "Night by"
     }
 }

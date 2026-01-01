@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let displayData = artworkData;
 
+        // UPDATE TOTAL COUNT
+        const totalCountEl = document.getElementById('total-count');
+        if (totalCountEl) {
+            totalCountEl.textContent = `(${artworkData.length} obras)`;
+        }
+
         if (catFilter) {
             // Apply Initial Filter
             displayData = artworkData.filter(art => art.category === catFilter);
@@ -134,7 +140,10 @@ function createArtCard(art) {
 
     // Safe Price Check to avoid crash on null/undefined
     let priceDisplay = '';
-    if (art.price && typeof art.price === 'string' && !isNaN(art.price.replace('.', '').replace(',', ''))) {
+
+    if (false) { // Disabled as per user request
+        priceDisplay = '<span style="color: #d9534f; font-weight: bold; letter-spacing: 1px;">🔴 VENDIDO</span>';
+    } else if (art.price && typeof art.price === 'string' && !isNaN(art.price.replace('.', '').replace(',', ''))) {
         priceDisplay = art.price + ' &euro;';
     } else if (art.price && art.price !== 'Consultar') {
         // If it is 'Consultar' or other string
@@ -146,12 +155,10 @@ function createArtCard(art) {
     // Ideally, we replicate strict CSS url() syntax.
     const safeUrl = encodeURI(art.src).replace(/'/g, "%27");
 
-    // VENDIDO BADGE LOGIC
-    const soldBadge = art.sold ? '<div class="sold-badge">VENDIDO</div>' : '';
 
     el.innerHTML = `
         <div class="card-image" style="background-image: url('${safeUrl}'); background-color: ${art.placeholderColor || '#ccc'};">
-            ${soldBadge}
+            
         </div>
         <div class="card-info">
             <h3>${art.title || 'Sin Título'}</h3>
